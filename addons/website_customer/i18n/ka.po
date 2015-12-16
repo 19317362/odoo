@@ -8,7 +8,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-25 13:07+0000\n"
+=======
+"PO-Revision-Date: 2015-09-08 10:10+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Georgian (http://www.transifex.com/odoo/odoo-9/language/ka/)\n"
 "MIME-Version: 1.0\n"
@@ -56,12 +60,12 @@ msgstr ""
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag_create_uid
 msgid "Created by"
-msgstr "შემქმნელი"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag_create_date
 msgid "Created on"
-msgstr "შექმნის თარიღი"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag_display_name

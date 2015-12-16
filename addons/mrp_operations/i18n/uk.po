@@ -9,7 +9,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-14 10:27+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-26 15:06+0000\n"
+=======
+"PO-Revision-Date: 2015-10-14 10:39+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Bogdan\n"
 "Language-Team: Ukrainian (http://www.transifex.com/odoo/odoo-9/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -151,7 +155,7 @@ msgstr "Виконано"
 #: selection:mrp.production.workcenter.line,state:0
 #: selection:mrp.workorder,state:0
 msgid "Draft"
-msgstr "Чорновий"
+msgstr "Чернетка"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_workcenter_form_view_inherit
@@ -217,7 +221,7 @@ msgstr "У виробництві"
 #: selection:mrp.production.workcenter.line,state:0
 #: selection:mrp.workorder,state:0
 msgid "In Progress"
-msgstr "В процесі"
+msgstr ""
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:438
@@ -497,7 +501,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_form_inherit_view2
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_workcenter_form_view_inherit
 msgid "Set Draft"
-msgstr "Зробити чорновим"
+msgstr ""
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_form_inherit_view

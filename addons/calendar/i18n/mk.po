@@ -7,8 +7,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2015-11-26 09:05+0000\n"
 "PO-Revision-Date: 2015-11-27 08:49+0000\n"
+=======
+"POT-Creation-Date: 2015-09-18 08:12+0000\n"
+"PO-Revision-Date: 2015-10-22 12:39+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Macedonian (http://www.transifex.com/odoo/odoo-9/language/mk/)\n"
 "MIME-Version: 1.0\n"
@@ -651,7 +656,7 @@ msgstr "Времетраење"
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_duration_minutes
 #: model:ir.model.fields,help:calendar.field_calendar_alarm_duration_minutes
 msgid "Duration in minutes"
-msgstr "Времетраење во минути"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.alarm,type:0

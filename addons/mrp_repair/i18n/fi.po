@@ -9,7 +9,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:12+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-12-07 17:39+0000\n"
+=======
+"PO-Revision-Date: 2015-10-24 07:32+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Kari Lindgren <kari.lindgren@emsystems.fi>\n"
 "Language-Team: Finnish (http://www.transifex.com/odoo/odoo-9/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -117,7 +121,7 @@ msgstr "Lisää sisäiset muistiinpanot..."
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
 msgid "Add quotation notes..."
-msgstr "Lisää tarjousmuistiinpanoja..."
+msgstr ""
 
 #. module: mrp_repair
 #: selection:mrp.repair,invoice_method:0
@@ -755,7 +759,7 @@ msgstr ""
 #: code:addons/mrp_repair/mrp_repair.py:272
 #, python-format
 msgid "Serial number is required for operation line with product '%s'"
-msgstr "Sarjanumero vaaditaan tuotantolinjalla tuotteelle '%s'"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form

@@ -3,8 +3,11 @@
 # * crm
 # 
 # Translators:
+<<<<<<< HEAD
 # francisco alexandre bezerra da silva <falexandresilva@gmail.com>, 2015
 # Grazziano Duarte <g.negocios@outlook.com.br>, 2015
+=======
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 # Martin Trigaux, 2015
 # Mateus Cerqueira Lopes <mateus1@gmail.com>, 2015
 msgid ""
@@ -63,7 +66,7 @@ msgid ""
 "<li>ID: ${object.id}</li>\n"
 "<li>Description: ${object.description}</li>\n"
 "</ul>"
-msgstr "<p>Esta oportunidade não têm nenhuma atividade nos últimos 5 dias. Aqui estão alguns detalhes:</p>\n<ul>\n<li>Nome: ${object.name}</li>\n<li>ID: ${object.id}</li>\n<li>Descrição: ${object.description}</field></li>\n</ul>"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -78,7 +81,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<span class=\"fa fa-arrow-circle-o-down\"/> Install Slides"
-msgstr "<span class=\"fa fa-arrow-circle-o-down\"/> Instalar Slides"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -93,7 +96,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<span class=\"fa fa-arrow-circle-o-down\"/> Install e-Commerce"
-msgstr "<span class=\"fa fa-arrow-circle-o-down\"/> Instalar e-Commerce"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -607,7 +610,7 @@ msgstr "Atividades"
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Activities Analysis"
-msgstr "Análise de atividades"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_users_target_sales_done
@@ -838,7 +841,7 @@ msgstr "Análise das Prospecções do CRM"
 #: model:crm.activity,name:crm.crm_activity_data_call
 #: model:mail.message.subtype,name:crm.crm_activity_data_call_mail_message_subtype
 msgid "Call"
-msgstr "Ligação"
+msgstr ""
 
 #. module: crm
 #: model:crm.activity,name:crm.crm_activity_demo_call_demo
@@ -910,7 +913,7 @@ msgstr "Marque esta caixa para gerenciar as oportunidades nesta equipe de vendas
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
 msgid "Choose a date..."
-msgstr "Escolha a data..."
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_city
@@ -1152,7 +1155,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Create your products"
-msgstr "Criar seus produtos"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1401,7 +1404,7 @@ msgstr "Concluído"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Download the"
-msgstr "Download o"
+msgstr ""
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_draft_lead
@@ -1458,7 +1461,7 @@ msgstr "Endereço de e-mail do contato"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "End"
-msgstr "Fim"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1504,12 +1507,12 @@ msgstr "Exemplos"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Examples:"
-msgstr "Exemplos:"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Excel template"
-msgstr "Modelo Excel"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -1815,7 +1818,7 @@ msgstr "Se marcado novas mensagens solicitarão sua atenção."
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Se marcado novas mensagens solicitarão sua atenção."
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_opt_out
@@ -1942,7 +1945,7 @@ msgstr "Itens do diário associado ao contato"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "KPIs"
-msgstr "KPIs"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_date_action_last
@@ -2499,19 +2502,19 @@ msgstr "Próxima Atividade"
 #: model:ir.model.fields,field_description:crm.field_crm_activity_activity_1_id
 #: model:ir.model.fields,field_description:crm.field_crm_lead_next_activity_1
 msgid "Next Activity 1"
-msgstr "Próxima Atividade 1"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_activity_2_id
 #: model:ir.model.fields,field_description:crm.field_crm_lead_next_activity_2
 msgid "Next Activity 2"
-msgstr "Próxima Atividade 2"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_activity_3_id
 #: model:ir.model.fields,field_description:crm.field_crm_lead_next_activity_3
 msgid "Next Activity 3"
-msgstr "Próxima Atividade 3"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_date_action
@@ -2558,7 +2561,7 @@ msgstr "Notas"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_message_needaction_counter
 msgid "Number of Actions"
-msgstr "Número de ações"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_opportunity_report_delay_close
@@ -2578,7 +2581,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_days
 msgid "Number of days"
-msgstr "Número de dias"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_activity_days
@@ -2845,7 +2848,7 @@ msgid ""
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
-msgstr "Modelo de pai segurando o alias. O modelo segurando a referência de alias\nnão é necessariamente o modelo dado por alias_model_id\n(example: project (parent_model) and task (model))"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_activity_parent_id
@@ -3420,7 +3423,7 @@ msgstr "Tag"
 #. module: crm
 #: sql_constraint:crm.lead.tag:0
 msgid "Tag name already exists !"
-msgstr "Essa tag já existe !"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_tag_ids
@@ -3442,7 +3445,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage_team_ids
 msgid "Teams"
-msgstr "Equipes"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner

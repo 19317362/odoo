@@ -25,6 +25,7 @@ from openerp import http
 from openerp.http import request, STATIC_CACHE
 from openerp.modules.module import get_resource_path, get_module_path
 from openerp.osv import osv, orm
+from openerp.tools import lazy_property
 
 _logger = logging.getLogger(__name__)
 
@@ -72,7 +73,7 @@ class ir_http(osv.AbstractModel):
         return {'model': ModelConverter, 'models': ModelsConverter, 'int': SignedIntConverter}
 
     def _find_handler(self, return_rule=False):
-        return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+        return self.routing_map.bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
 
     def _auth_method_user(self):
         request.uid = request.session.uid
@@ -197,16 +198,14 @@ class ir_http(osv.AbstractModel):
                 except openerp.models.MissingError:
                     return self._handle_exception(werkzeug.exceptions.NotFound())
 
+    @lazy_property
     def routing_map(self):
-        if not hasattr(self, '_routing_map'):
-            _logger.info("Generating routing map")
-            installed = request.registry._init_modules - {'web'}
-            if openerp.tools.config['test_enable']:
-                installed.add(openerp.modules.module.current_test)
-            mods = [''] + openerp.conf.server_wide_modules + sorted(installed)
-            self._routing_map = http.routing_map(mods, False, converters=self._get_converters())
-
-        return self._routing_map
+        _logger.info("Generating routing map")
+        installed = request.registry._init_modules - {'web'}
+        if openerp.tools.config['test_enable']:
+            installed.add(openerp.modules.module.current_test)
+        mods = [''] + openerp.conf.server_wide_modules + sorted(installed)
+        return http.routing_map(mods, False, converters=self._get_converters())
 
     def content_disposition(self, filename):
         filename = openerp.tools.ustr(filename)

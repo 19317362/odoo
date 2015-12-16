@@ -8,7 +8,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:11+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-24 18:28+0000\n"
+=======
+"PO-Revision-Date: 2015-09-19 08:21+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Catalan (http://www.transifex.com/odoo/odoo-9/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +24,7 @@ msgstr ""
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_claim_count
 msgid "# Claims"
-msgstr "# Reclamacions"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_issue_count
@@ -247,19 +251,19 @@ msgstr "El preu negociat per l'empresa"
 msgid ""
 "This is a name that helps you keep track of your different campaign efforts "
 "Ex: Fall_Drive, Christmas_Special"
-msgstr "Aquest nom us permet fer un seguiment de les diferents accions de campanya. Per ex: Tardor2015, Especial_Nadal"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_sale_order_medium_id
 msgid "This is the method of delivery. Ex: Postcard, Email, or Banner Ad"
-msgstr "Aquest és el mètode d'enviament. Per exemple: correu, correu electrònic o pancarta"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_sale_order_source_id
 msgid ""
 "This is the source of the link Ex: Search Engine, another domain, or name of"
 " email list"
-msgstr "Aquest és l'origen de l'enllaç. Per ex: cercador, un altre domini o el nom d'una llista de correu electrònic"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_property_stock_customer

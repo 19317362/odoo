@@ -3,15 +3,23 @@
 # * fleet
 # 
 # Translators:
+<<<<<<< HEAD
 # Manuela Silva <h_manuela_rodsilva@gmail.com>, 2015
 # Ricardo Correia <rcorreiavv@gmail.com>, 2015
+=======
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-29 10:27+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-25 14:24+0000\n"
 "Last-Translator: Ricardo Correia <rcorreiavv@gmail.com>\n"
+=======
+"PO-Revision-Date: 2015-10-20 14:28+0000\n"
+"Last-Translator: Martin Trigaux\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Language-Team: Portuguese (http://www.transifex.com/odoo/odoo-9/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -239,7 +247,7 @@ msgstr "Escolher se o serviço diz respeito a contratos, serviços de veículo o
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_act
 msgid "Click to create a new contract."
-msgstr "Clique para criar um novo contrato."
+msgstr "Clique para criar um contrato."
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_costs_act
@@ -1083,7 +1091,7 @@ msgstr "Manual"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_image_medium
 msgid "Medium-sized image"
-msgstr "Imagem de tamanho médio"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_brand_image_medium
@@ -1575,7 +1583,7 @@ msgstr "Definir o contrato em progresso"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_image_small
 msgid "Small-sized image"
-msgstr "Imagem pequena"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_brand_image_small

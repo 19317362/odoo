@@ -9,7 +9,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-21 09:18+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-23 13:06+0000\n"
+=======
+"PO-Revision-Date: 2015-10-20 04:47+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: German (http://www.transifex.com/odoo/odoo-9/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -2285,7 +2289,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_config_settings
 msgid "mrp.config.settings"
-msgstr "mrp.config.settings"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.property,composition:0

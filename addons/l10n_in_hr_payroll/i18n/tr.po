@@ -8,7 +8,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-21 09:27+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-12-03 09:55+0000\n"
+=======
+"PO-Revision-Date: 2015-10-17 13:25+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Turkish (http://www.transifex.com/odoo/odoo-9/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -362,7 +366,7 @@ msgstr "Create Advice"
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_hr_salary_employee_month_create_uid
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_yearly_salary_detail_create_uid
 msgid "Created by"
-msgstr "Oluşturan"
+msgstr ""
 
 #. module: l10n_in_hr_payroll
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_hr_payroll_advice_create_date
@@ -370,7 +374,7 @@ msgstr "Oluşturan"
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_hr_salary_employee_month_create_date
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_yearly_salary_detail_create_date
 msgid "Created on"
-msgstr "Oluşturulma"
+msgstr ""
 
 #. module: l10n_in_hr_payroll
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_hr_payroll_advice_date
@@ -528,7 +532,7 @@ msgstr "From:"
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.view_payment_advice_search
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.view_payslip_search
 msgid "Group By"
-msgstr "Grupla"
+msgstr ""
 
 #. module: l10n_in_hr_payroll
 #: model:ir.model.fields,help:l10n_in_hr_payroll.field_hr_contract_house_rent_allowance_metro_nonmetro
@@ -564,7 +568,7 @@ msgstr "Hr Salary Employee By Month Report"
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_report_l10n_in_hr_payroll_report_payslipdetails_id
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_yearly_salary_detail_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: l10n_in_hr_payroll
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_hr_payroll_advice_line_ifsc
@@ -612,7 +616,7 @@ msgstr "Haziran"
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_report_l10n_in_hr_payroll_report_payslipdetails___last_update
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_yearly_salary_detail___last_update
 msgid "Last Modified on"
-msgstr "Son Güncelleme"
+msgstr ""
 
 #. module: l10n_in_hr_payroll
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_hr_payroll_advice_line_write_uid
@@ -620,7 +624,7 @@ msgstr "Son Güncelleme"
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_hr_salary_employee_month_write_uid
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_yearly_salary_detail_write_uid
 msgid "Last Updated by"
-msgstr "Son Güncelleyen"
+msgstr ""
 
 #. module: l10n_in_hr_payroll
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_hr_payroll_advice_line_write_date
@@ -628,7 +632,7 @@ msgstr "Son Güncelleyen"
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_hr_salary_employee_month_write_date
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_yearly_salary_detail_write_date
 msgid "Last Updated on"
-msgstr "Son Güncelleme"
+msgstr ""
 
 #. module: l10n_in_hr_payroll
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.view_hr_bank_advice_form

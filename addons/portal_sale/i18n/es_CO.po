@@ -9,7 +9,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-09 09:19+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-27 23:57+0000\n"
+=======
+"PO-Revision-Date: 2015-10-24 07:19+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Mateo Tibaquirá <nestormateo@gmail.com>\n"
 "Language-Team: Spanish (Colombia) (http://www.transifex.com/odoo/odoo-9/language/es_CO/)\n"
 "MIME-Version: 1.0\n"
@@ -180,7 +184,7 @@ msgstr "${object.company_id.name|safe} ${object.state in ('draft', 'sent') and '
 #: model:mail.template,subject:portal_sale.email_template_edi_invoice
 msgid ""
 "${object.company_id.name|safe} Invoice (Ref ${object.number or 'n/a' })"
-msgstr "${object.company_id.name|safe} Factura (Ref ${object.number or 'N/A' })"
+msgstr ""
 
 #. module: portal_sale
 #: model:ir.model,name:portal_sale.model_account_invoice
@@ -192,7 +196,7 @@ msgstr "Factura"
 msgid ""
 "Invoice_${(object.number or '').replace('/','_')}_${object.state == 'draft' "
 "and 'draft' or ''}"
-msgstr "Factura_${(object.number or '').replace('/','_')}_${object.state == 'draft' and 'borrador' or ''}"
+msgstr ""
 
 #. module: portal_sale
 #: model:ir.actions.act_window,name:portal_sale.portal_action_invoices
@@ -203,7 +207,7 @@ msgstr "Facturas"
 #. module: portal_sale
 #: model:ir.model,name:portal_sale.model_mail_mail
 msgid "Outgoing Mails"
-msgstr "Correos Salientes"
+msgstr ""
 
 #. module: portal_sale
 #: model:ir.actions.act_window,name:portal_sale.action_quotations_portal
@@ -214,7 +218,7 @@ msgstr "Cotizaciones"
 #. module: portal_sale
 #: model:ir.actions.act_window,name:portal_sale.action_orders_portal
 msgid "Sale Orders"
-msgstr "Órdenes de Venta"
+msgstr ""
 
 #. module: portal_sale
 #: model:ir.model,name:portal_sale.model_sale_order
@@ -224,7 +228,7 @@ msgstr "Pedido de Venta"
 #. module: portal_sale
 #: model:ir.ui.menu,name:portal_sale.portal_sales_orders
 msgid "Sales Orders"
-msgstr "Órdenes de Ventas"
+msgstr "Pedidos"
 
 #. module: portal_sale
 #: model:ir.actions.act_window,help:portal_sale.portal_action_invoices
@@ -239,4 +243,4 @@ msgstr "No le hemos enviado ninguna cotización."
 #. module: portal_sale
 #: model:ir.actions.act_window,help:portal_sale.action_orders_portal
 msgid "We haven't sent you any sales order."
-msgstr "No le hemos enviado ninguna orden de venta."
+msgstr ""

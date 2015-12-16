@@ -8,7 +8,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-29 10:26+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-12-07 17:39+0000\n"
+=======
+"PO-Revision-Date: 2015-10-24 07:29+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Kari Lindgren <kari.lindgren@emsystems.fi>\n"
 "Language-Team: Finnish (http://www.transifex.com/odoo/odoo-9/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -247,7 +251,7 @@ msgstr "Vahvistettu"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_partner
 msgid "Create Request for Quotation"
-msgstr "Luo tarjouspyyntö"
+msgstr ""
 
 #. module: purchase_requisition
 #: selection:product.template,purchase_requisition:0

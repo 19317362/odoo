@@ -9,7 +9,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-21 09:27+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-24 10:00+0000\n"
+=======
+"PO-Revision-Date: 2015-10-20 17:16+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Ivica Dimjašević <ivica.dimjasevic@storm.hr>\n"
 "Language-Team: Croatian (http://www.transifex.com/odoo/odoo-9/language/hr/)\n"
 "MIME-Version: 1.0\n"
@@ -869,7 +873,7 @@ msgstr "Odbijeno"
 #. module: l10n_in_hr_payroll
 #: model:ir.ui.menu,name:l10n_in_hr_payroll.menu_l10n_in_hr_payroll_report
 msgid "Reports"
-msgstr "Izvještaji"
+msgstr ""
 
 #. module: l10n_in_hr_payroll
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.report_payrolladvice
@@ -966,7 +970,7 @@ msgstr "Titula"
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.report_hrsalarybymonth
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.report_hryearlysalary
 msgid "To"
-msgstr "za"
+msgstr ""
 
 #. module: l10n_in_hr_payroll
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.hr_payslip_run_search_inherit

@@ -10,8 +10,13 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-09 09:18+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-12-07 16:06+0000\n"
 "Last-Translator: Timo Koukkari <timo.koukkari@seamk.fi>\n"
+=======
+"PO-Revision-Date: 2015-10-24 07:22+0000\n"
+"Last-Translator: Martin Trigaux\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Language-Team: Finnish (http://www.transifex.com/odoo/odoo-9/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2343,7 +2348,7 @@ msgid ""
 "=========================\n"
 "\n"
 "        "
-msgstr "\nOdoo myyntitarjouksen loppurivit\n=============================\n\n        "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_calendar
@@ -2720,7 +2725,7 @@ msgid ""
 "    * Company\n"
 "    * Date\n"
 "    "
-msgstr "\nAseta oletusarvot kustannuspaikoillesi (analyyttinen tili).\n=================================================\n\nKustannuspaikan valinta automaattisesti valintaperusteena:\n--------------------------------------------------------------------------------------\n    * Tuote\n    * Kumppani\n    * Käyttäjä\n    * Yritys\n    * Päivämäärä\n    "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_slides
@@ -9214,7 +9219,7 @@ msgstr ""
 #: code:addons/base/res/res_config.py:715
 #, python-format
 msgid "Go to the configuration panel"
-msgstr "Mene asetusvalikkoon"
+msgstr ""
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_4
@@ -9306,7 +9311,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:base.view_window_action_search
 #: model:ir.ui.view,arch_db:base.view_workflow_activity_search
 msgid "Group By"
-msgstr "Ryhmittele"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups_full_name
@@ -10415,7 +10420,7 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_account
 #: model:ir.ui.menu,name:base.menu_invoiced
 msgid "Invoicing"
-msgstr "Laskutus"
+msgstr ""
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_account_voucher
@@ -12783,7 +12788,7 @@ msgstr ""
 #: model:res.partner.category,name:base.res_partner_category_0
 #: model:res.request.link,name:base.req_link_partner
 msgid "Partner"
-msgstr "Kumppani"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_crm_partner_assign
@@ -12793,7 +12798,7 @@ msgstr ""
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_mass_mail
 msgid "Partner Mass Mailing"
-msgstr "Massapostitus"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_partner
@@ -13059,7 +13064,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_discount
 msgid "Point of Sale Discounts"
-msgstr "Kassapäätealennukset"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_reprint
@@ -13279,7 +13284,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_product_extended
 msgid "Product extension to track sales and purchases"
-msgstr "Tuotelaajennos myyntien ja ostojen seurantaan"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_product
@@ -14343,7 +14348,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_website_sale
 msgid "Sell Your Products Online"
-msgstr "Myy tuotteesi verkossa"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_timesheet
@@ -14615,7 +14620,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_discount
 msgid "Simple Discounts in the Point of Sale "
-msgstr "Helpot alennukset kassapäätteellä"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.sg
@@ -14996,7 +15001,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_wkf_workitem_state
 #: model:ir.ui.view,arch_db:base.view_workflow_workitem_search
 msgid "Status"
-msgstr "Tila"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_sequence_number_increment
@@ -15970,7 +15975,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_timesheet_sheet
 msgid "Timesheets"
-msgstr "Tuntikortit"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_timesheet_sheet
@@ -16654,7 +16659,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:base.view_users_search
 #: model:res.groups,name:base.group_survey_user
 msgid "User"
-msgstr "Käyttäjä"
+msgstr ""
 
 #. module: base
 #: model:ir.ui.menu,name:base.next_id_2
@@ -17735,7 +17740,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale_options
 msgid "eCommerce Optional Products"
-msgstr "Verkkokaupan lisätuotteet"
+msgstr ""
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_users_simple_form

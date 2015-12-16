@@ -49,13 +49,14 @@
             <field name="priority" eval="10"/>
             <field name="arch" type="xml">
                 <kanban>
+<<<<<<< HEAD
                     <field name="message_follower_ids"/>
                     <field name="is_member"/>
                     <field name="message_needaction_counter"/>
+=======
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
                     <field name="description"/>
-                    <field name="alias_id"/>
-                    <field name="alias_name"/>
-                    <field name="alias_domain"/>
+                    <field name="is_subscribed"/>
                     <templates>
                         <t t-name="kanban-description">
                             <div class="oe_group_description" t-if="record.description.raw_value">
@@ -63,6 +64,7 @@
                             </div>
                         </t>
                         <t t-name="kanban-box">
+<<<<<<< HEAD
                             <div t-attf-class="{record.is_member.raw_value} oe_group_vignette oe_semantic_html_override">
                                 <div class="oe_group_image">
                                     <a type="open"><img t-att-src="kanban_image('mail.channel', 'image_medium', record.id.value)" class="oe_group_photo" tooltip="kanban-description"/></a>
@@ -84,6 +86,17 @@
                                         <button t-if="record.is_member.raw_value" name="action_unfollow" type="object">Unfollow</button>
                                         <button t-if="! record.is_member.raw_value" name="action_follow" type="object">Join Group</button>
                                     </div>
+=======
+                            <div class="oe_module_vignette oe_kanban_global_click">
+                                <img t-att-src="kanban_image('mail.channel', 'image_medium', record.id.value)" class="oe_module_icon"/>
+                                <div class="oe_module_desc">
+                                    <h4>#<field name="name"/></h4>
+                                    <p class="oe_module_name">
+                                        <field name="description"/>
+                                    </p>
+                                    <button type="object" attrs="{'invisible':[('is_subscribed','=',True)]}" class="btn btn-primary pull-right btn-sm" name="channel_join_and_get_info">Join</button>
+                                    <button type="object" attrs="{'invisible':[('is_subscribed','=',False)]}" class="btn btn-secondary pull-right btn-sm" name="action_unfollow">Leave</button>
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
                                 </div>
                             </div>
                         </t>
@@ -106,7 +119,7 @@
                                 <label for="name"/>
                             </div>
                             <h1>
-                                <field name="name" default_focus="1" placeholder="Name" readonly="0"/>
+                                #<field name="name" default_focus="1" placeholder="Name" readonly="0"/>
                             </h1>
                         </div>
                         <group>

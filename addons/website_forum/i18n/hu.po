@@ -8,9 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2015-11-26 14:10+0000\n"
 "PO-Revision-Date: 2015-11-27 10:00+0000\n"
 "Last-Translator: Kris Krnacs\n"
+=======
+"POT-Creation-Date: 2015-10-09 09:20+0000\n"
+"PO-Revision-Date: 2015-10-23 18:26+0000\n"
+"Last-Translator: Martin Trigaux\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Language-Team: Hungarian (http://www.transifex.com/odoo/odoo-9/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +49,7 @@ msgid ""
 "${object.company_id.email or ''}\n"
 "${object.company_id.phone or ''}\n"
 "</pre>"
-msgstr "\n<p>\n    Hello ${object.name},\n</p>\n<p>\n    Kérjük érvényesítse ezzel az email-el a hozzáférését a \"${object.company_id.name}\" Kérdések/Válaszok fórumokhoz.\n</p>\n<p>\n    Az email érvényesítéshez, kérem kattintson a következő elérési útra:\n</p>\n<ul>\n    <li><a href=\"${ctx.get('token_url')}\">Érvényesítem a fiókom a \"${object.company_id.name}\" K/V fórumokhoz</a></li>\n</ul>\n<p>\n    Köszönjük,\n</p>\n<pre>\n--\n${object.company_id.name or ''}\n${object.company_id.email or ''}\n${object.company_id.phone or ''}\n</pre>"
+msgstr "\n<p>\n    Hello ${object.name},\n</p>\n<p>\n    Kérjük érvényesítse ezzel az emailló-el a hozzáférését a \"${object.company_id.name}\" Kérdések/Válaszok fórumokhoz.\n</p>\n<p>\n    Az email érvényesítéshez, kérem kattintson a következő elérési útra:\n</p>\n<ul>\n    <li><a href=\"${ctx.get('token_url')}\">Érvényesítem a fiókom a \"${object.company_id.name}\" K/V fórumokhoz</a></li>\n</ul>\n<p>\n    Köszönjük,\n</p>\n<pre>\n--\n${object.company_id.name or ''}\n${object.company_id.email or ''}\n${object.company_id.phone or ''}\n</pre>"
 
 #. module: website_forum
 #. openerp-web
@@ -57,7 +63,7 @@ msgstr " karmára van szükség ennek a műveletnek a végrehajtásához. Karmá
 #. module: website_forum
 #: model:mail.template,subject:website_forum.validation_email
 msgid "${object.company_id.name} Forums validation"
-msgstr "${object.company_id.name} Fórumok jóváhagyása"
+msgstr "${object.company_id.name} Fórumok érévnyesítése"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
@@ -117,7 +123,7 @@ msgstr "<b> [Tartózkodó]</b>"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.users
 msgid "<b> badges:</b>"
-msgstr "<b> jelvények:</b>"
+msgstr "<b> kitüntetések:</b>"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -205,7 +211,7 @@ msgstr "<b>Mielőtt kérdezne  - előtte keressen rá a hasonló kérdések köz
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_badges
 msgid "<b>No badge yet!</b><br/>"
-msgstr "<b>Nincs még jelvénye!</b><br/>"
+msgstr "<b>Nincs még kitüntetés!</b><br/>"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_votes
@@ -310,7 +316,7 @@ msgstr "<span class=\"text-muted\">(kérdésenként csak egy válasz megengedett
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
 msgid "<span class=\"text-muted\">bio</span>"
-msgstr "<span class=\"text-muted\">nem</span>"
+msgstr "<span class=\"text-muted\">életrajz</span>"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.close_post
@@ -320,7 +326,7 @@ msgstr "<span class=\"text-muted\">vagy</span>"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
 msgid "<span class=\"text-muted\">stats</span>"
-msgstr "<span class=\"text-muted\">államok</span>"
+msgstr "<span class=\"text-muted\">állapot</span>"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
@@ -338,7 +344,7 @@ msgstr "<span> • </span>\n                Jelölt"
 #: model:ir.ui.view,arch_db:website_forum.display_post_question_block
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
 msgid "<span>By </span>"
-msgstr "<span>Által </span>"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.tag
@@ -654,7 +660,7 @@ msgstr "Jelvény \""
 #: model:ir.ui.view,arch_db:website_forum.header
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
 msgid "Badges"
-msgstr "Jelvények"
+msgstr "Kitűzők"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.badge
@@ -744,7 +750,7 @@ msgstr "Felülvizsgálhat"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_can_unlink
 msgid "Can Unlink"
-msgstr "Hivatkozás mentesíthet"
+msgstr "Hivatkozás mentasíthet"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_can_upvote
@@ -915,7 +921,7 @@ msgstr "Megjegyzések a fórum bejegyzésen"
 #. module: website_forum
 #: model:gamification.challenge,name:website_forum.challenge_configure_profile
 msgid "Complete own biography"
-msgstr "Saját életrajz elkészítés"
+msgstr "Saját életrajz készítés"
 
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_p_1
@@ -1401,7 +1407,7 @@ msgstr "Fórumok"
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_gamification_badge
 msgid "Gamification badge"
-msgstr "Gamifikációs/játékos jelvény"
+msgstr "Gamifikációs/játékos kitüntetés"
 
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_gamification_challenge
@@ -1411,7 +1417,7 @@ msgstr "Gamifikációs felmérés"
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_gamification_badge_user
 msgid "Gamification user badge"
-msgstr "Gamifikációs/játékos felhasználói jelvény"
+msgstr "Gamifikációs/játékos felhasználói kitüntetés"
 
 #. module: website_forum
 #. openerp-web
@@ -1573,7 +1579,7 @@ msgstr "Illesszen be címkéket melyek kapcsolódnak a kérdéséhez."
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_user_favourite
 msgid "Is Favourite"
-msgstr "Ez kedvenc"
+msgstr "Kedvenc"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_message_is_follower
@@ -1684,6 +1690,14 @@ msgid "Last activity date"
 msgstr "Utolsó tevékenység dátuma"
 
 #. module: website_forum
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:website_forum.field_res_users_calendar_last_notif_ack
+msgid "Last notification marked as read from base Calendar"
+msgstr ""
+
+#. module: website_forum
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 #: model:ir.ui.view,arch_db:website_forum.header
 msgid "Last updated:"
 msgstr "Utoljára frissítve:"
@@ -1905,7 +1919,7 @@ msgstr "Tartózkodó"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_answers
 msgid "On"
-msgstr "Ekkor"
+msgstr "Be"
 
 #. module: website_forum
 #. openerp-web
@@ -2075,7 +2089,7 @@ msgstr "Egy [Törölt] vagy [Lezárt]  kérdésen nem lehet közzétenni válasz
 #: model:ir.ui.menu,name:website_forum.menu_forum_posts
 #: model:ir.ui.view,arch_db:website_forum.forum_index
 msgid "Posts"
-msgstr "Bejegyzések"
+msgstr "Belyegyzések"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_question
@@ -2092,7 +2106,7 @@ msgstr "Nyilvános profi"
 #: model:gamification.challenge,name:website_forum.challenge_pundit
 #: model:gamification.goal.definition,name:website_forum.definition_pundit
 msgid "Pundit"
-msgstr "Tudós"
+msgstr ""
 
 #. module: website_forum
 #. openerp-web
@@ -2163,17 +2177,17 @@ msgstr "Kérdés nem található!"
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_q_4
 msgid "Question set as favorite by 1 user"
-msgstr "Kérdés kedvencnek jelölve 1 felhasználó által"
+msgstr ""
 
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_q_6
 msgid "Question set as favorite by 25 users"
-msgstr "Kérdés kedvencnek jelölve 25 felhasználó által"
+msgstr ""
 
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_q_5
 msgid "Question set as favorite by 5 users"
-msgstr "Kérdés kedvencnek jelölve 5 felhasználó által"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
@@ -2188,17 +2202,17 @@ msgstr "Kérdés felértékelt"
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_q_10
 msgid "Question voted up 15 times"
-msgstr "Kérdés 15 alkalommal felértékelve"
+msgstr ""
 
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_q_8
 msgid "Question voted up 4 times"
-msgstr "Kérdés 4 alkalommal felértékelve"
+msgstr ""
 
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_q_9
 msgid "Question voted up 6 times"
-msgstr "Kérdés 6 alkalommal felértékelve"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_allow_question
@@ -2242,7 +2256,7 @@ msgstr "Az ok:"
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_a_1
 msgid "Received at least 3 upvote for an answer for the first time"
-msgstr "Legalább 3 felértékelést kapott egy első alkalommal közölt kérdésre"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.display_post_question_block
@@ -2362,7 +2376,7 @@ msgstr "Osszon meg egy őrületes elérési linket. A közzétett bejegyzése l�
 msgid ""
 "Share this content to increase your chances to be featured on the front page"
 " and attract more visitors."
-msgstr "Ossza meg ezt a tartalmat az első oldalra kerülésének esélyei növeléséhez és több látogató bevonzásához."
+msgstr ""
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_allow_share
@@ -2546,14 +2560,14 @@ msgid ""
 "    this site in order to improve the overall quality of the knowledge base content.\n"
 "    Such privileges are granted based on user karma level: you will be able to do the same\n"
 "    once your karma gets high enough."
-msgstr "Ezért a kérdések ás válaszok szerkeszthetőek az oldalt látogató gyakorlott felhasználók által wiki \n    oldal szerűen az ismeret anyag alap tartalma általános minőségének fejlesztése érdekében.\n    Ilyen előjogokkal ruház fel a felhasználók karma szintjei alapján: meg fogja tudni csinálni ugyanezt\n    miután a karmája elég magas lesz."
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid ""
 "This community is for professional and enthusiast users,\n"
 "    partners and programmers. You can ask questions about:"
-msgstr "Ez a szakemberek és elkötelezett felhasználók, partnerek\n    ás programozók közössége. Ezekről tehet fel kérdéseket:"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,description:website_forum.forum_help
@@ -2561,7 +2575,7 @@ msgid ""
 "This community is for professionals and enthusiasts of our products and "
 "services. Share and discuss the best content and new marketing ideas, build "
 "your professional profile and become a better marketer together."
-msgstr "Ez a szakemberek és a programjaink és szolgáltatásain iránt elkötelezettek közössége. Ossza meg és szóljon hozzá a legjobb bejegyzésekhez és új marketing ötletekhez, építse fel a szakszerű profilját és legyen közösen egy jobb marketingje."
+msgstr ""
 
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_forum_relevancy_post_vote
@@ -2660,7 +2674,7 @@ msgstr "Azért, hogy megakadályozza a kérdésének kijelölését és lehetsé
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
 msgid "Trending"
-msgstr "Trendi"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_post_type
@@ -2675,27 +2689,27 @@ msgstr "URL"
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_post_content_link
 msgid "URL of Link Articles"
-msgstr "Hivatkozó cikkek URL elérése"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_link
 msgid "URL to Share"
-msgstr "URL elérési út a megosztáshoz"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.forum_index
 msgid "Unanswered"
-msgstr "Megválaszolatlan"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_karma_comment_unlink_all
 msgid "Unlink all comments"
-msgstr "Lekapcsolja az összes megjegyzést"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_karma_comment_unlink_own
 msgid "Unlink own comments"
-msgstr "Lekapcsolja a saját megjegyzéseit"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_message_unread
@@ -2717,12 +2731,12 @@ msgstr "Frissít"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_write_date
 msgid "Update on"
-msgstr "Ekkor frissítve"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_write_uid
 msgid "Updated by"
-msgstr "Frissítette"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_karma_upvote
@@ -2756,7 +2770,7 @@ msgstr "Felértékelt szavazat (6)"
 msgid ""
 "Use this <em>'Content'</em> menu to create a new forum like any other "
 "document (page, menu, products, event, ...)."
-msgstr "Használja a <em>'Tartalom'</em> menüt egy új fórum létrehozásához mint bármely más dokumentumhoz (oldal, menü, termékek, esemény, ...)."
+msgstr ""
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_vote_user_id
@@ -2773,7 +2787,7 @@ msgstr "Felhasználók"
 msgid ""
 "Users can answer only once per question. Contributors can edit answers and "
 "mark the right ones."
-msgstr "Felhasználók kérdésenként csak egyszer válaszolhatnak. Közreműködők szerkeszthetik a válaszokat és megjelölhetik a helyes válaszokat."
+msgstr ""
 
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:726
@@ -2785,7 +2799,7 @@ msgstr "Nézet"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
 msgid "View Your Badges"
-msgstr "Nézze meg a Jelvényeit"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_forum_post_vote
@@ -2803,19 +2817,19 @@ msgstr "Szavazatok"
 #. module: website_forum
 #: selection:forum.post,state:0
 msgid "Waiting Validation"
-msgstr "Várakozás jóváhagyásra"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
 msgid "Waiting for validation"
-msgstr "Jóváhagyásra vár"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_link
 msgid ""
 "We keep a high level of quality in showcased posts, around 20% of the submited\n"
 "            posts will be featured."
-msgstr "Meghagyjuk a tárolt bejegyzések magas szintű minőségét, körülbelül a beküldött bejegyzések 20% \n            kerül felhasználásra."
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.edit_profile
@@ -2861,17 +2875,17 @@ msgstr "Üdvözlőüzenet"
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "What kinds of questions can I ask here?"
-msgstr "Milyen fajta kérdést tehetek fel itt?"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "What should I avoid in my answers?"
-msgstr "Mire ügyeljek válaszaimban?"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "What should I avoid in my questions?"
-msgstr "Mire ügyeljek kérdéseimben?"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -2885,19 +2899,19 @@ msgstr "Ha egy kérdés vagy válasz felértékelt, a bejegyzést közzétevő f
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_forum_allow_link
 msgid "When clicking on the post, it redirects to an external link"
-msgstr "Ha rákattint a bejegyzésre, az átirányít egy külső link elérési útra"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "Why can other people edit my questions/answers?"
-msgstr "Miért tudja másik ember szerkeszteni a kérdéseimet/válaszaimat?"
+msgstr ""
 
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:140
 #, python-format
 msgid ""
 "You cannot choose %s as default post since the forum does not allow it."
-msgstr "Nem választhatja %s alapértelmezett bejegyzés közzétételnek, mivel a fórum nem engedélyezi azt."
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -2906,17 +2920,17 @@ msgid ""
 "    on actual problems that you face. Chatty, open-ended\n"
 "    questions diminish the usefulness of this site and push\n"
 "    other questions off the front page."
-msgstr "Lehetőleg kizárólag aktuálisan szembesült problémán alapuló praktikus, megválaszolható kérdéseket tegyen fel. Csevegés,\nláthatatlan-végű kérdések csökkentik ennek az oldalnak felhasználhatóságát  és másik kérdés lesz kiemelve az\nelső oldalra."
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_answer
 msgid "Your Answer"
-msgstr "Ön válasza"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_discussion
 msgid "Your Discussion Title..."
-msgstr "Hozzászólásának címe.."
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_question
@@ -2926,12 +2940,12 @@ msgstr "Kérdésed címe..."
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_reply
 msgid "Your Reply"
-msgstr "Válasza"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
 msgid "accept any answer"
-msgstr "bármely válasz elfogadása"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_question
@@ -2941,17 +2955,17 @@ msgstr "és"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.close_post
 msgid "back to post"
-msgstr "vissza a bejegyzés közzétételhez"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_question
 msgid "bad examples"
-msgstr "rossz példák"
+msgstr ""
 
 #. module: website_forum
 #: selection:gamification.badge,level:0
 msgid "bronze"
-msgstr "bronz"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
@@ -2961,32 +2975,32 @@ msgstr "által"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.forum_index
 msgid "by activity date"
-msgstr "tevékenység dátuma szerint"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.forum_index
 msgid "by most answered"
-msgstr "legtöbbször megválaszolt szerint"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.forum_index
 msgid "by most voted"
-msgstr "legtöbb szavazatot kapott szerint"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.forum_index
 msgid "by newest"
-msgstr "legújabb szerint"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.forum_index
 msgid "by relevance"
-msgstr "előfordulás szerint"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
 msgid "close any posts"
-msgstr "zárja le bármely bejegyzés közzétételt"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_7
@@ -2996,52 +3010,52 @@ msgstr "ellenséges vagy rosszindulatú megjegyzéseket tartalmaz"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
 msgid "delete any comment"
-msgstr "bármely bejegyzés közzététel törlése"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
 msgid "delete any question or answer"
-msgstr "bármely kérdés vagy válasz törlése"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
 msgid "delete own comment"
-msgstr "saját bejegyzés közzétételt törlése"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
 msgid "downvote"
-msgstr "leszavazás"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_1
 msgid "duplicate post"
-msgstr "megkettőzött bejegyzés"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_link
 msgid "e.g. https://www.odoo.com"
-msgstr "pl. https://www.odoo.com"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
 msgid "edit any post, view offensive flags"
-msgstr "bármely bejegyzés közzététel szerkesztése, tartózkodó jelőlések megtekintése"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "every answer is equally valid: “What’s your favorite ______?”"
-msgstr "mindegyik válasz egyenlően érvényes: “Mi a kedvence ______?”"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
 msgid "flag offensive, close own questions"
-msgstr "tartózkodó jelölés, saját kérdései lezárása"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
 msgid "flagged"
-msgstr "jelölt"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
@@ -3051,44 +3065,44 @@ msgstr "követő(k)"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
 msgid "for reason:"
-msgstr "ok miatt:"
+msgstr ""
 
 #. module: website_forum
 #: selection:gamification.badge,level:0
 msgid "gold"
-msgstr "arany"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_question
 msgid "good examples"
-msgstr "jó példák"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
 msgid "has been closed"
-msgstr "le lett zárva"
+msgstr ""
 
 #. module: website_forum
 #. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:36
 #, python-format
 msgid "here"
-msgstr "itt"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "how to configure or customize Odoo to specific business needs,"
-msgstr "hogyan állítsa vagy szabja személyre az Odoo rendszert a sajátos üzleti követelményekhez,"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "how to develop modules for your own need,"
-msgstr "hogyan fejlesszen a szükségleteihez modulokat,"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "how to install Odoo on a specific infrastructure,"
-msgstr "hogyan telepítse az Odoo rendszert egy sajátos infrastruktúrához,"
+msgstr ""
 
 #. module: website_forum
 #. openerp-web
@@ -3097,69 +3111,69 @@ msgstr "hogyan telepítse az Odoo rendszert egy sajátos infrastruktúrához,"
 msgid ""
 "if your\n"
 "        answer is selected as the right one. See what you can do with karma"
-msgstr "ha a \n        válaszát megfelelőnek választották. Nézze meg mit tud a karmájával kezdeni"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_13
 msgid "inappropriate and unacceptable statements"
-msgstr "nem alkalmazható és elfogadhatatlan álláspontok"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
 msgid "insert text link, upload files"
-msgstr "szöveg link elérési útvonal, fájlok feltöltéséhez"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_11
 msgid "insulting and offensive language"
-msgstr "sértő és támadó nyelvezet"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "it is a rant disguised as a question: “______ sucks, am I right?”"
-msgstr "ez egy zavarosan összeszedett kérdés: “______ szívás, igazam van?”"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
 msgid "karma"
-msgstr "karma"
+msgstr ""
 
 #. module: website_forum
 #. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:34
 #, python-format
 msgid "karma points"
-msgstr "karma pontok"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
 msgid "last connection"
-msgstr "utolsó csatlakozás"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
 msgid "location"
-msgstr "helyszín"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
 msgid "member since"
-msgstr "ekkortól tag"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_4
 msgid "not a real post"
-msgstr "nem egy valós bejegyzés"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_6
 msgid "not relevant or out dated"
-msgstr "nem aktuális vagy lejárt dátumú"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_2
 msgid "off-topic or not relevant"
-msgstr "off-topic/témán kívül vagy nem ide vonatkozó"
+msgstr "off-topic vagy nem ide vonatkozó"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_comment
@@ -3174,94 +3188,94 @@ msgstr "ezen:"
 msgid ""
 "on social networks get an answer within\n"
 "        5 hours. Questions shared on two social networks have"
-msgstr "a szociális hálózatokon 5 órán belül megkapja \n        a választ. Két szociális hálón megosztott kérdésnek van"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
 msgid "post"
-msgstr "bejegyzés közzététel"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_15
 msgid "racist and hate speech"
-msgstr "rasszista és gyűlölködő beszéd"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.badge_user
 msgid "received this badge:"
-msgstr "ezt a jelvényt kapta:"
+msgstr ""
 
 #. module: website_forum
 #: selection:gamification.badge,level:0
 msgid "silver"
-msgstr "ezüst"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_8
 msgid "spam or advertising"
-msgstr "levélszemét vagy hirdetés"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "specific questions about Odoo service offers, etc."
-msgstr "sajátos kérdés az Odoo rendszer szolgáltatás ajánlatairól, stb."
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid ""
 "there is no actual problem to be solved: “I’m curious if other people feel "
 "like I do.”"
-msgstr "nincs aktuális megoldandó probléma: “Kíváncsi vagyok, ha más ember is így érez mint én.”"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_14
 msgid "threatening language"
-msgstr "fenyegető beszéd"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
 msgid "time"
-msgstr "idő"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
 msgid "times"
-msgstr "idők"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_9
 msgid "too localized"
-msgstr "nagyon meghatározott helyrajzi fekvés"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_3
 msgid "too subjective and argumentative"
-msgstr "nagyon egyéni és vitatható"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
 msgid "upvote, add comments"
-msgstr "felértékelés, megjegyzések hozzáadása"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.badge_user
 msgid "user"
-msgstr "felhasználó"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.badge_user
 msgid "users"
-msgstr "felhasználók"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
 msgid "views"
-msgstr "nézetek"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_12
 msgid "violent language"
-msgstr "erőszakos beszéd"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
@@ -3271,14 +3285,14 @@ msgstr "szavazatok"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
 msgid "waiting for validation"
-msgstr "jóváhagyásra vár"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid ""
 "we are being asked an open-ended, hypothetical question: “What if ______ "
 "happened?”"
-msgstr "elkezdtünk egy, feltételezett, nyílt-végű kérdés megadását: “Mi van ha ______ történt?”"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
@@ -3288,14 +3302,14 @@ msgstr "weboldal"
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "what's the best way to use Odoo for a specific business need,"
-msgstr "mi a legjobb módja az Odoo rendszer felhasználásának egy sajátos üzleti igényben,"
+msgstr ""
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid ""
 "your answer is provided along with the question, and you expect more "
 "answers: “I use ______ for ______, what do you use?”"
-msgstr "a válaszát megadta a kérdésével együtt, és még több választ vár: “Én  ______ használom ______ erre, te mit használsz?”"
+msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq

@@ -3,15 +3,23 @@
 # * pos_restaurant
 # 
 # Translators:
+<<<<<<< HEAD
 # Eric Rial <erialmedina@gmail.com>, 2015
 # Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2015
+=======
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-12-05 12:56+0000\n"
 "Last-Translator: Marc Tormo i Bochaca <mtbochaca@gmail.com>\n"
+=======
+"PO-Revision-Date: 2015-10-12 18:16+0000\n"
+"Last-Translator: Martin Trigaux\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Language-Team: Catalan (http://www.transifex.com/odoo/odoo-9/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -80,7 +88,7 @@ msgstr " Aparició "
 #: code:addons/pos_restaurant/static/src/js/floors.js:535
 #, python-format
 msgid "Are you sure ?"
-msgstr "Estàs segur?"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -93,7 +101,7 @@ msgstr "Enrera"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_background_color
 msgid "Background Color"
-msgstr "Color de fons"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_background_image
@@ -103,7 +111,7 @@ msgstr "Imatge de fons "
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_pos_config_form
 msgid "Bar & Restaurant"
-msgstr "Bar i Restaurant"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -185,7 +193,7 @@ msgstr "Creat el"
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:91
 #, python-format
 msgid "Discount:"
-msgstr "Descompte:"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -218,12 +226,20 @@ msgstr "Activa la divisió de factures al punt de venda "
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_floor_id
 msgid "Floor"
+<<<<<<< HEAD
 msgstr "Sala"
+=======
+msgstr ""
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_name
 msgid "Floor Name"
+<<<<<<< HEAD
 msgstr "Nom de la Sala"
+=======
+msgstr ""
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,name:pos_restaurant.action_restaurant_floor_form
@@ -237,14 +253,14 @@ msgstr "Disseny de sales "
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_customer_count
 #, python-format
 msgid "Guests"
-msgstr "Comensals"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:883
 #, python-format
 msgid "Guests ?"
-msgstr "Comensals?"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_height
@@ -296,7 +312,7 @@ msgstr "Actualitzat per última vegada el dia"
 #: code:addons/pos_restaurant/static/src/xml/multiprint.xml:52
 #, python-format
 msgid "NEW"
-msgstr "NOU"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -356,7 +372,7 @@ msgstr "Notes de la línia "
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_printer_form
 msgid "POS Printer"
-msgstr "Impresora POS"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -534,7 +550,11 @@ msgstr "El nombre predeterminat de clients que es serveixen en aquesta taula."
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor_table_ids
 msgid "The list of tables in this floor"
+<<<<<<< HEAD
 msgstr "Lllista de taules en aquesta sala"
+=======
+msgstr ""
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table_pos_order_ids
@@ -658,7 +678,7 @@ msgstr "restaurant.floor"
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_restaurant_printer
 msgid "restaurant.printer"
-msgstr "impresora.restaurant"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_restaurant_table

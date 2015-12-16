@@ -10,7 +10,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:11+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-12-09 12:42+0000\n"
+=======
+"PO-Revision-Date: 2015-10-18 14:30+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Bogdan\n"
 "Language-Team: Ukrainian (http://www.transifex.com/odoo/odoo-9/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -322,7 +326,7 @@ msgstr "Залишити пустим"
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.mrp_company
 msgid "Logistics"
-msgstr "Логістика"
+msgstr ""
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_message_ids

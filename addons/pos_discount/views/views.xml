@@ -8,11 +8,20 @@
             <field name="inherit_id" ref="point_of_sale.view_pos_config_form" />
             <field name="arch" type="xml">
                 <xpath expr="//group[@name='receipt']" position="after">
+<<<<<<< HEAD
                     <group string="Discounts" col="4" >
                         <field name='iface_discount' />
                         <label string="" colspan="2" />
                         <field name="discount_product_id" />
                         <field name='discount_pc' />
+=======
+                    <group string="Discounts">
+                        <field name='iface_discount' />
+                    </group>
+                    <group col="4" attrs="{'invisible': [('iface_discount', '=', False)]}">
+                        <field name='discount_pc' />
+                        <field name='discount_product_id' attrs="{'required': [('iface_discount', '=', True)]}" />
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
                     </group>
                 </xpath>
             </field>

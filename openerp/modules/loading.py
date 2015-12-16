@@ -22,7 +22,7 @@ from openerp import SUPERUSER_ID
 
 from openerp.tools.translate import _
 from openerp.modules.module import initialize_sys_path, \
-    load_openerp_module, init_module_models, adapt_version
+    load_openerp_module, init_models, adapt_version
 from module import runs_post_install
 
 _logger = logging.getLogger(__name__)
@@ -134,7 +134,7 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
         loaded_modules.append(package.name)
         if hasattr(package, 'init') or hasattr(package, 'update') or package.state in ('to install', 'to upgrade'):
             registry.setup_models(cr, partial=True)
-            init_module_models(cr, package.name, models)
+            init_models(models, cr, {'module': package.name})
 
         idref = {}
 
@@ -144,7 +144,7 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
 
         if hasattr(package, 'init') or hasattr(package, 'update') or package.state in ('to install', 'to upgrade'):
             # Can't put this line out of the loop: ir.module.module will be
-            # registered by init_module_models() above.
+            # registered by init_models() above.
             modobj = registry['ir.module.module']
 
             if perform_checks:
@@ -182,9 +182,9 @@ def load_module_graph(cr, graph, status=None, perform_checks=True, skip_modules=
                     report.record_result(load_test(module_name, idref, mode))
                     # Python tests
                     ir_http = registry['ir.http']
-                    if hasattr(ir_http, '_routing_map'):
-                        # Force routing map to be rebuilt between each module test suite
-                        del(ir_http._routing_map)
+                    # Force routing map to be rebuilt between each module test suite
+                    vars(ir_http).pop('routing_map', None)
+
                     report.record_result(openerp.modules.module.run_unit_tests(module_name, cr.dbname))
 
             processed_modules.append(package.name)

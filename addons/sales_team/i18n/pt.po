@@ -3,15 +3,23 @@
 # * sales_team
 # 
 # Translators:
+<<<<<<< HEAD
 # Ricardo Correia <rcorreiavv@gmail.com>, 2015
 # Ricardo Martins <ricardo.nbs.martins@gmail.com>, 2015
+=======
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:11+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-25 14:39+0000\n"
 "Last-Translator: Ricardo Correia <rcorreiavv@gmail.com>\n"
+=======
+"PO-Revision-Date: 2015-10-20 14:22+0000\n"
+"Last-Translator: Martin Trigaux\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Language-Team: Portuguese (http://www.transifex.com/odoo/odoo-9/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,7 +92,7 @@ msgstr "Atividades concluídas"
 #: model:ir.actions.act_window,help:sales_team.crm_team_salesteams_act
 #: model:ir.actions.act_window,help:sales_team.sales_team_config_action
 msgid "Click here to define a new sales team."
-msgstr "Clique aqui para definir uma nova equipa de vendas."
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -97,7 +105,7 @@ msgstr "Clique aqui para definir uma nova equipa de vendas."
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:182
 #, python-format
 msgid "Click to set"
-msgstr "Clique para definir"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_code
@@ -120,7 +128,7 @@ msgstr "Empresa"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:215
 #, python-format
 msgid "Create a few opportunities to activate your dashboard."
-msgstr "Crie algumas oportunidades para activar o painel."
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_create_uid
@@ -183,7 +191,7 @@ msgstr "Seguidores (Parceiros)"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:214
 #, python-format
 msgid "Great sales journeys start with a clean pipeline."
-msgstr "Grandes fases de vendas começam com um canal de vendas limpo."
+msgstr ""
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
@@ -195,7 +203,7 @@ msgstr "Agrupar por..."
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:213
 #, python-format
 msgid "Hi there!"
-msgstr "ola!"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_id
@@ -217,7 +225,7 @@ msgstr "Se marcado, há novas mensagens que pedem a sua atenção."
 msgid ""
 "If the active field is set to false, it will allow you to hide the sales "
 "team without removing it."
-msgstr "Se o campo ativo é definido como falso, ele permite que oculte a equipa de vendas sem a remover."
+msgstr ""
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.crm_team_1
@@ -288,7 +296,7 @@ msgstr "Mais <i class=\"fa fa-caret-down\"/>"
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "More Info"
-msgstr "Mais info"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
@@ -300,7 +308,7 @@ msgstr "Minhas Equipas de Vendas"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:50
 #, python-format
 msgid "Next 7 days"
-msgstr "Próximso 7 dias"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -341,7 +349,7 @@ msgstr "Parceiro"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:102
 #, python-format
 msgid "Performance"
-msgstr "Performance"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_reply_to
@@ -378,7 +386,7 @@ msgstr "Equipa de Vendas"
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Salesteam name..."
-msgstr "Nome da equipa de vendas.."
+msgstr ""
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
@@ -395,7 +403,7 @@ msgstr "Configurações"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:146
 #, python-format
 msgid "Target"
-msgstr "Alvo"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_user_id
@@ -442,7 +450,7 @@ msgstr "Esta lista de preços será utilizada, em vez do padrão, para as vendas
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:76
 #, python-format
 msgid "To Activities"
-msgstr "Para actividades"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -450,7 +458,7 @@ msgstr "Para actividades"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:189
 #, python-format
 msgid "To Activity Report"
-msgstr "Para relatório das actividades"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -458,7 +466,7 @@ msgstr "Para relatório das actividades"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:51
 #, python-format
 msgid "To Calendar"
-msgstr "Para Calendári"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -466,14 +474,14 @@ msgstr "Para Calendári"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:199
 #, python-format
 msgid "To Invoice Report"
-msgstr "Para relatório de Fatura"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:86
 #, python-format
 msgid "To Opportunities"
-msgstr "Para Oportunidades"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -481,14 +489,14 @@ msgstr "Para Oportunidades"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:194
 #, python-format
 msgid "To Opportunity Report"
-msgstr "Para o relatório de oportunidades"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:13
 #, python-format
 msgid "To do"
-msgstr " A Fazer"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web

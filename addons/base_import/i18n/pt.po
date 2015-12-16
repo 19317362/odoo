@@ -3,14 +3,13 @@
 # * base_import
 # 
 # Translators:
-# Ricardo Martins <ricardo.nbs.martins@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:40+0000\n"
-"PO-Revision-Date: 2015-10-29 15:17+0000\n"
-"Last-Translator: Ricardo Martins <ricardo.nbs.martins@gmail.com>\n"
+"PO-Revision-Date: 2015-10-20 14:22+0000\n"
+"Last-Translator: Martin Trigaux\n"
 "Language-Team: Portuguese (http://www.transifex.com/odoo/odoo-9/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -103,7 +102,7 @@ msgstr ""
 #: code:addons/base_import/static/src/xml/import.xml:20
 #, python-format
 msgid "CSV Format Options…"
-msgstr "Opções de Formatação do CSV..."
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -117,14 +116,14 @@ msgstr ""
 #: code:addons/base_import/static/src/xml/import.xml:161
 #, python-format
 msgid "CSV file for Products"
-msgstr "Ficheiro CSV para produtos"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/xml/import.xml:160
 #, python-format
 msgid "CSV file for categories"
-msgstr "Ficheiro CSV para categorias"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -146,7 +145,7 @@ msgstr "Cancelar"
 #: code:addons/base_import/static/src/js/import.js:216
 #, python-format
 msgid "Comma"
-msgstr "Vírgula"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -244,7 +243,7 @@ msgstr ""
 #: code:addons/base_import/models.py:147 code:addons/base_import/models.py:153
 #, python-format
 msgid "Database ID"
-msgstr "Id da base de dados"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import_display_name
@@ -336,7 +335,7 @@ msgstr "Tipo de ficheiro"
 #: code:addons/base_import/static/src/xml/import.xml:218
 #, python-format
 msgid "File for some Quotations"
-msgstr "Ficheiro para alguns Orçamentos"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,help:base_import.field_base_import_import_file
@@ -402,7 +401,7 @@ msgstr ""
 #: code:addons/base_import/static/src/xml/import.xml:365
 #, python-format
 msgid "Here is the start of the file we could not import:"
-msgstr "Aqui está uma pré-visualização do ficheiro que não foi importado:"
+msgstr ""
 
 #. module: base_import
 #. openerp-web

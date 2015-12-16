@@ -3,13 +3,16 @@
 # * sales_team
 # 
 # Translators:
-# Pavol Krnáč <pavol.krnac@ekoenergo.sk>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:11+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-12-11 18:28+0000\n"
+=======
+"PO-Revision-Date: 2015-10-20 04:47+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Pavol Krnáč <pavol.krnac@ekoenergo.sk>\n"
 "Language-Team: Slovak (http://www.transifex.com/odoo/odoo-9/language/sk/)\n"
 "MIME-Version: 1.0\n"
@@ -148,7 +151,7 @@ msgstr "Dátum poslednej správy zaslanej záznamu."
 #. module: sales_team
 #: model:crm.team,name:sales_team.team_sales_department
 msgid "Direct Sales"
-msgstr "Priame predaje"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_display_name
@@ -221,7 +224,7 @@ msgstr ""
 #. module: sales_team
 #: model:crm.team,name:sales_team.crm_team_1
 msgid "Indirect Sales"
-msgstr "Nepriame predaje"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -292,7 +295,7 @@ msgstr ""
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
 msgid "My Salesteams"
-msgstr "Moje obchodné tímy"
+msgstr ""
 
 #. module: sales_team
 #. openerp-web
@@ -372,7 +375,7 @@ msgstr "Obchodné tímy"
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Sales team"
-msgstr "Obchodný tím"
+msgstr ""
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_form

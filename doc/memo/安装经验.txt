@@ -1,0 +1,7 @@
+1. 初次运行过程中，如果出了任何错误，修正错误后，建议删除DB后再重新运行，防止库不完整出各种异常。
+2. 不要安装简单的Python包， 安装 Anaconda
+   再安装 psycopg for win
+3. 因为VS是 WIN32，所以要安装32位的python
+4. requirement 还是要执行的。
+5. 命令行用 --config=openerp-server.conf
+6. https://github.com/19317362/odoo.git

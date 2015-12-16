@@ -8,9 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2015-09-18 08:12+0000\n"
 "PO-Revision-Date: 2015-12-12 12:35+0000\n"
 "Last-Translator: Vitor Fernandes <vmlf01@gmail.com>\n"
+=======
+"POT-Creation-Date: 2015-09-07 14:41+0000\n"
+"PO-Revision-Date: 2015-09-08 10:20+0000\n"
+"Last-Translator: Martin Trigaux\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Language-Team: Portuguese (http://www.transifex.com/odoo/odoo-9/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,6 +25,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_form
+<<<<<<< HEAD
 #. openerp-web
 #: code:addons/website_form/static/src/js/website_form.js:208
 #, python-format
@@ -33,6 +40,8 @@ msgid "'%s' is not a correct datetime"
 msgstr "'%s' não é uma Data/Hora correta"
 
 #. module: website_form
+=======
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 #: code:addons/website_form/controllers/main.py:205
 #, python-format
 msgid "<p>Attached files : </p>"

@@ -10,8 +10,13 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-14 10:27+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-12-01 13:05+0000\n"
 "Last-Translator: Davor Bojkić <bole@dajmi5.com>\n"
+=======
+"PO-Revision-Date: 2015-10-20 19:59+0000\n"
+"Last-Translator: Ivica Dimjašević <ivica.dimjasevic@storm.hr>\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Language-Team: Croatian (http://www.transifex.com/odoo/odoo-9/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -672,7 +677,7 @@ msgstr "Lokacija partnera"
 #. module: crm_partner_assign
 #: model:ir.ui.view,arch_db:crm_partner_assign.crm_lead_portal_form
 msgid "Partner Name"
-msgstr "Ime partnera"
+msgstr ""
 
 #. module: crm_partner_assign
 #: model:ir.ui.view,arch_db:crm_partner_assign.view_crm_partner_assign_form

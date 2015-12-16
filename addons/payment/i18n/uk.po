@@ -3,13 +3,16 @@
 # * payment
 # 
 # Translators:
-# Bogdan, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:40+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-12-02 13:05+0000\n"
+=======
+"PO-Revision-Date: 2015-10-14 10:39+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Bogdan\n"
 "Language-Team: Ukrainian (http://www.transifex.com/odoo/odoo-9/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -227,7 +230,7 @@ msgstr ""
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Draft"
-msgstr "Чорновий"
+msgstr "Чернетка"
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form

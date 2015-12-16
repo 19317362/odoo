@@ -9,7 +9,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-29 10:26+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-27 23:09+0000\n"
+=======
+"PO-Revision-Date: 2015-10-24 07:07+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Mateo Tibaquirá <nestormateo@gmail.com>\n"
 "Language-Team: Spanish (Colombia) (http://www.transifex.com/odoo/odoo-9/language/es_CO/)\n"
 "MIME-Version: 1.0\n"
@@ -21,21 +25,21 @@ msgstr ""
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.layout
 msgid "&lt;!DOCTYPE html&gt;"
-msgstr "&lt;!DOCTYPE html&gt;"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/rte.summernote.js:727
 #, python-format
 msgid "(YouTube, Vimeo, Vine, Instagram, DailyMotion or Youku)"
-msgstr "(YouTube, Vimeo, Vine, Instagram, DailyMotion o Youku)"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:235
 #, python-format
 msgid "(Youtube, Vimeo, Dailymotion)"
-msgstr "(Youtube, Vimeo, Dailymotion)"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.snippets
@@ -43,7 +47,7 @@ msgid ""
 "<span class=\"fa-stack\">\n"
 "                <i class=\"fa fa-th-large fa-stack-1x\"/>\n"
 "            </span> First Panel"
-msgstr "<span class=\"fa-stack\">\n                <i class=\"fa fa-th-large fa-stack-1x\"/>\n            </span> Primer Panel"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -57,7 +61,7 @@ msgstr "Acción"
 #: code:addons/web_editor/static/src/xml/editor.xml:112
 #, python-format
 msgid "Add"
-msgstr "Añadir"
+msgstr "Agregar"
 
 #. module: web_editor
 #. openerp-web
@@ -99,19 +103,19 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:99
 #, python-format
 msgid "Alternate Upload"
-msgstr "Subida Alternativa"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_ir_attachment_local_url
 msgid "Attachment URL"
-msgstr "URL Adjunto"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/snippets.xml:48
 #, python-format
 msgid "Auto Resize"
-msgstr "Redim Auto"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -218,7 +222,7 @@ msgstr "Creado"
 #: code:addons/web_editor/static/src/xml/snippets.xml:35
 #, python-format
 msgid "Customize"
-msgstr "Personalizar"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -250,14 +254,14 @@ msgstr "Predeterminado"
 #: code:addons/web_editor/static/src/xml/translator.xml:9
 #, python-format
 msgid "Discard"
-msgstr "Descartar"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:175
 #, python-format
 msgid "Discard edition"
-msgstr "Descartar edición"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub_display_name
@@ -283,7 +287,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/rte.summernote.js:708
 #, python-format
 msgid "Drag an image here"
-msgstr "Arrastre una imagen aquí"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -305,14 +309,14 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/rte.summernote.js:717
 #, python-format
 msgid "Edit"
-msgstr "Editar"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:247
 #, python-format
 msgid "Embed Video (HTML)"
-msgstr "Embeber Video (HTML)"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -462,7 +466,7 @@ msgstr "Imagen"
 #: code:addons/web_editor/static/src/js/rte.summernote.js:710
 #, python-format
 msgid "Image URL"
-msgstr "URL de la Imagen"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -502,7 +506,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/rte.summernote.js:701
 #, python-format
 msgid "Insert Image"
-msgstr "Insertar Imagen"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -537,7 +541,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/rte.summernote.js:776
 #, python-format
 msgid "Keyboard shortcuts"
-msgstr "Atajos de teclado"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -608,14 +612,14 @@ msgstr "Media"
 #: code:addons/web_editor/static/src/js/rte.summernote.js:767
 #, python-format
 msgid "More Color"
-msgstr "Más Color"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:50
 #, python-format
 msgid "Next →"
-msgstr "Siguiente →"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -768,7 +772,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/rte.summernote.js:711
 #, python-format
 msgid "Remove Image"
-msgstr "Remover Imagen"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -796,28 +800,28 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/snippets.xml:49
 #, python-format
 msgid "Resize"
-msgstr "Redimensionar"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/rte.summernote.js:702
 #, python-format
 msgid "Resize Full"
-msgstr "Redim Completo"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/rte.summernote.js:703
 #, python-format
 msgid "Resize Half"
-msgstr "Redim Mitad"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/rte.summernote.js:704
 #, python-format
 msgid "Resize Quarter"
-msgstr "Redim Cuarto"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -897,7 +901,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:343
 #, python-format
 msgid "Size"
-msgstr "Tamaño"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -912,7 +916,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/snippets.xml:24
 #, python-format
 msgid "Snippets are loading..."
-msgstr "Cargando los snippets..."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -934,7 +938,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:310
 #, python-format
 msgid "Style"
-msgstr "Estilo"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -948,7 +952,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:324
 #, python-format
 msgid "Success"
-msgstr "Éxito"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.colorpicker
@@ -967,7 +971,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/rte.summernote.js:730
 #, python-format
 msgid "Table"
-msgstr "Tabla"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -990,7 +994,7 @@ msgstr ""
 msgid ""
 "The image could not be deleted because it is used in the\n"
 "               following pages or views:"
-msgstr "La imagen no pudo ser borrada porque es usada en las\nsiguientes páginas o vistas:"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1005,7 +1009,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:203
 #, python-format
 msgid "Title:"
-msgstr "Título:"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1033,7 +1037,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:300
 #, python-format
 msgid "URL or Email Address"
-msgstr "URL o Correo Electrónico"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1068,21 +1072,21 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:96
 #, python-format
 msgid "Upload an image from your computer"
-msgstr "Subir una imágen desde su computador"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:102
 #, python-format
 msgid "Upload image without optimization"
-msgstr "Subir imagen sin optimización"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:105
 #, python-format
 msgid "Uploading..."
-msgstr "Subiendo..."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1116,7 +1120,7 @@ msgstr "Advertencia"
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.colorpicker
 msgid "Warning Color"
-msgstr "Color de Advertencia"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1151,21 +1155,21 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:179
 #, python-format
 msgid "all"
-msgstr "todo"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:305
 #, python-format
 msgid "http://openerp.com"
-msgstr "http://odoo.com"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:111
 #, python-format
 msgid "http://openerp.com/logo.png"
-msgstr "https://www.odoo.com/logo.png"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_attachment
@@ -1175,32 +1179,32 @@ msgstr "ir.attachment"
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb
 msgid "ir.qweb"
-msgstr "ir.qweb"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field
 msgid "ir.qweb.field"
-msgstr "ir.qweb.field"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_contact
 msgid "ir.qweb.field.contact"
-msgstr "ir.qweb.field.contact"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_date
 msgid "ir.qweb.field.date"
-msgstr "ir.qweb.field.date"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_datetime
 msgid "ir.qweb.field.datetime"
-msgstr "ir.qweb.field.datetime"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_duration
 msgid "ir.qweb.field.duration"
-msgstr "ir.qweb.field.duration"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_float
@@ -1210,57 +1214,57 @@ msgstr "ir.qweb.field.float"
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_html
 msgid "ir.qweb.field.html"
-msgstr "ir.qweb.field.html"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_image
 msgid "ir.qweb.field.image"
-msgstr "ir.qweb.field.image"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_integer
 msgid "ir.qweb.field.integer"
-msgstr "ir.qweb.field.integer"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_many2one
 msgid "ir.qweb.field.many2one"
-msgstr "ir.qweb.field.many2one"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_monetary
 msgid "ir.qweb.field.monetary"
-msgstr "ir.qweb.field.monetary"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_qweb
 msgid "ir.qweb.field.qweb"
-msgstr "ir.qweb.field.qweb"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_relative
 msgid "ir.qweb.field.relative"
-msgstr "ir.qweb.field.relative"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_selection
 msgid "ir.qweb.field.selection"
-msgstr "ir.qweb.field.selection"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_text
 msgid "ir.qweb.field.text"
-msgstr "ir.qweb.field.text"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_translation
 msgid "ir.translation"
-msgstr "ir.translation"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_ui_view
 msgid "ir.ui.view"
-msgstr "ir.ui.view"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1283,17 +1287,17 @@ msgstr "desconocido(a)"
 #: code:addons/web_editor/static/src/xml/editor.xml:179
 #, python-format
 msgid "unsaved changes will be lost."
-msgstr "los cambios no guardados se perderán."
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_web_editor_converter_test
 msgid "web_editor.converter.test"
-msgstr "web_editor.converter.test"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_web_editor_converter_test_sub
 msgid "web_editor.converter.test.sub"
-msgstr "web_editor.converter.test.sub"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1301,11 +1305,11 @@ msgstr "web_editor.converter.test.sub"
 #: code:addons/web_editor/static/src/xml/editor.xml:247
 #, python-format
 msgid "— or —"
-msgstr "— o —"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:49
 #, python-format
 msgid "← Previous"
-msgstr "← Anterior"
+msgstr ""

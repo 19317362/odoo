@@ -11,8 +11,13 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-21 09:18+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-28 20:28+0000\n"
 "Last-Translator: Davor Bojkić <bole@dajmi5.com>\n"
+=======
+"PO-Revision-Date: 2015-10-21 07:07+0000\n"
+"Last-Translator: Vladimir Olujić <olujic.vladimir@storm.hr>\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Language-Team: Croatian (http://www.transifex.com/odoo/odoo-9/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -389,7 +394,7 @@ msgstr ""
 #: code:addons/mrp/mrp.py:639
 #, python-format
 msgid "Cannot delete a manufacturing order in state '%s'."
-msgstr "Ne možete obrisati proizvodni nalog u statusu '%s'."
+msgstr "Ne možete obrisati proizvodni nalog koji je u stanju '%s'."
 
 #. module: mrp
 #: code:addons/mrp/mrp.py:709
@@ -1531,7 +1536,7 @@ msgstr "Utrošeni proizvodi"
 msgid ""
 "Products can have several attributes, defining variants (Example: size, "
 "color,...)"
-msgstr "Proizvodi mogu imati nekoliko značajki za razlikovanje varijanti (npr. veličina, boja, ...)"
+msgstr "Proizvodi mogu imati nekoliko značajki za razlikovanje varijanti (npr: veličina, boja,...)"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_move_lines
@@ -1895,7 +1900,7 @@ msgstr ""
 #. module: mrp
 #: constraint:mrp.workcenter:0
 msgid "The capacity per cycle must be strictly positive."
-msgstr "Kapacitet po ciklusu mora biti obavezno pozitivan."
+msgstr "Kapacitet po ciklusu mora biti striktno pozitivan."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production_routing_id
@@ -2073,7 +2078,7 @@ msgstr "Valjanost komponente. Ostavite prazno ako je uvijek valjana."
 #: model:ir.model.fields,help:mrp.field_mrp_bom_date_start
 #: model:ir.model.fields,help:mrp.field_mrp_bom_date_stop
 msgid "Validity of this BoM. Keep empty if it's always valid."
-msgstr "Valjanost sastavnice. Ostavite prazno ako je uvijek valjana."
+msgstr "Valjanost Bom-a. Ostavite prazno ako je uvijek valjan."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_attribute_value_ids
@@ -2227,7 +2232,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_config_settings_module_mrp_operations
 msgid "Work Order Planning"
-msgstr "Planiranje radnih naloga"
+msgstr "Planiranje resursa"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view

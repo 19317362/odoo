@@ -9,7 +9,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-27 22:26+0000\n"
+=======
+"PO-Revision-Date: 2015-10-23 20:50+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Mateo Tibaquirá <nestormateo@gmail.com>\n"
 "Language-Team: Spanish (Colombia) (http://www.transifex.com/odoo/odoo-9/language/es_CO/)\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +25,7 @@ msgstr ""
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.opt_tag_list
 msgid "<span class=\"fa fa-1x fa-tags\"/> All"
-msgstr "<span class=\"fa fa-1x fa-tags\"/> Todos"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag_active
@@ -32,7 +36,7 @@ msgstr "Activo(a)"
 #: code:addons/website_customer/controllers/main.py:68
 #, python-format
 msgid "All Countries"
-msgstr "Todos los Países"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model.fields,help:website_customer.field_res_partner_tag_classname
@@ -47,7 +51,7 @@ msgstr "Nombre de la Categoría"
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag_classname
 msgid "Class"
-msgstr "Clase"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.actions.act_window,help:website_customer.action_partner_tag_form
@@ -77,7 +81,11 @@ msgstr "ID"
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.implemented_by_block
 msgid "Implemented By"
+<<<<<<< HEAD
 msgstr "Implementado por"
+=======
+msgstr ""
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag___last_update
@@ -104,14 +112,14 @@ msgstr ""
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.index
 msgid "No result found"
-msgstr "No se encontraron resultados"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.details
 #: model:ir.ui.view,arch_db:website_customer.footer_custom
 #: model:ir.ui.view,arch_db:website_customer.index
 msgid "Our References"
-msgstr "Nuestras Referencias"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model,name:website_customer.model_res_partner
@@ -169,7 +177,7 @@ msgstr "Etiquetas"
 #. module: website_customer
 #: model:ir.model.fields,help:website_customer.field_res_partner_tag_website_url
 msgid "The full URL to access the document through the website."
-msgstr "La URL completa para acceder al documento a través del sitio web."
+msgstr ""
 
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.index
@@ -179,12 +187,12 @@ msgstr ""
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag_website_published
 msgid "Visible in Website"
-msgstr "Visible en el Sitio Web"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.view_partners_form_website
 msgid "Website Tags"
-msgstr "Etiquetas del Sitio Web"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag_website_url
@@ -194,14 +202,18 @@ msgstr "URL del Sitio Web"
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_website_tag_ids
 msgid "Website tags"
-msgstr "Etiquetas del sitio web"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.opt_country
 msgid "World Map"
-msgstr "Mapa Mundial"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.implemented_by_block
 msgid "reference(s))"
+<<<<<<< HEAD
 msgstr "referencia(s))"
+=======
+msgstr ""
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f

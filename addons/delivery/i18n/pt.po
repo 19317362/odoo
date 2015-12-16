@@ -3,16 +3,24 @@
 # * delivery
 # 
 # Translators:
+<<<<<<< HEAD
 # Manuela Silva <h_manuela_rodsilva@gmail.com>, 2015
 # Ricardo Correia <rcorreiavv@gmail.com>, 2015
+=======
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 # Ricardo Martins <ricardo.nbs.martins@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-29 10:26+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-25 14:11+0000\n"
 "Last-Translator: Ricardo Correia <rcorreiavv@gmail.com>\n"
+=======
+"PO-Revision-Date: 2015-10-20 14:28+0000\n"
+"Last-Translator: Martin Trigaux\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Language-Team: Portuguese (http://www.transifex.com/odoo/odoo-9/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -600,7 +608,7 @@ msgstr "Se marcado, há novas mensagens que pedem a sua atenção."
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Se marcado, as novas mensagens requerem a sua atenção."
+msgstr "Se marcado, há novas mensagens que pedem a sua atenção."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_property_valuation
@@ -611,7 +619,7 @@ msgid ""
 "account set on the product category will represent the current inventory "
 "value, and the stock input and stock output account will hold the "
 "counterpart moves for incoming and outgoing products."
-msgstr "Se a avaliação em tempo real está habilitada para um produto, o sistema irá gravar automaticamente entradas de diário que correspondem a movimentos de ações, com o preço do produto, conforme especificado pela \"variação de stock 'Método de  Custeio' conta criada a categoria de produto irá representar o valor do stock atual, e a conta de entrada e saída de stock vai realizar a contrapartida move para produtos de entrada e saída."
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_free_if_more_than
@@ -1176,7 +1184,7 @@ msgid ""
 "Standard Price: The cost price is manually updated at the end of a specific period (usually once a year).\n"
 "                    Average Price: The cost price is recomputed at each incoming shipment and used for the product valuation.\n"
 "                    Real Price: The cost price displayed is the price of the last outgoing product (will be use in case of inventory loss for example)."
-msgstr "Preço Padrão: O preço de custo é atualizado manualmente no final de um determinado período (normalmente a cada ano). \nPreço Médio: O preço de custo é recalculado a cada remessa recebida e utilizada para a valorização do produto. \nPreço Real: O preço de custo é o preço do último produto de saída (será utilizado em caso de perda de inventário, por exemplo)."
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_state_ids

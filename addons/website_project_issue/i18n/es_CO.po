@@ -9,7 +9,11 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-11-28 06:37+0000\n"
+=======
+"PO-Revision-Date: 2015-10-24 14:01+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Mateo Tibaquirá <nestormateo@gmail.com>\n"
 "Language-Team: Spanish (Colombia) (http://www.transifex.com/odoo/odoo-9/language/es_CO/)\n"
 "MIME-Version: 1.0\n"
@@ -21,12 +25,12 @@ msgstr ""
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.portal_project_issue
 msgid "<span>Show more</span><span class=\"hidden\">Show less</span>"
-msgstr "<span>Ver más</span><span class=\"hidden\">Ver menos</span>"
+msgstr ""
 
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.issues_followup
 msgid "<strong>Assigned to</strong>"
-msgstr "<strong>Asignado a</strong>"
+msgstr ""
 
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.issues_followup
@@ -36,17 +40,21 @@ msgstr "<strong>Fecha:</strong>"
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.issues_followup
 msgid "<strong>Message and communication history</strong>"
+<<<<<<< HEAD
 msgstr "<strong>Historial de mensajes y de comunicación</strong>"
+=======
+msgstr ""
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.issues_followup
 msgid "<strong>Reported by</strong>"
-msgstr "<strong>Reportado por</strong>"
+msgstr ""
 
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.issues_followup
 msgid "Current stage of this issue"
-msgstr "Etapa actual de esta incidencia"
+msgstr ""
 
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.portal_project_issue
@@ -57,7 +65,7 @@ msgstr "Descripción"
 #: model:ir.ui.view,arch_db:website_project_issue.issues_followup
 #: model:ir.ui.view,arch_db:website_project_issue.portal_project_issue
 msgid "Issue"
-msgstr "Incidencia"
+msgstr ""
 
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.issues_followup
@@ -67,7 +75,7 @@ msgstr "Mi Cuenta"
 #. module: website_project_issue
 #: model:ir.model,name:website_project_issue.model_project_issue
 msgid "Project Issue"
-msgstr "Incidencia del Proyecto"
+msgstr ""
 
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.portal_project_issue
@@ -77,15 +85,15 @@ msgstr "Estado"
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.portal_project_issue
 msgid "There are currently no issues for your account."
-msgstr "Actualmente no tiene incidencias en su cuenta."
+msgstr ""
 
 #. module: website_project_issue
 #: code:addons/website_project_issue/models/project_issue.py:30
 #, python-format
 msgid "View Issue"
-msgstr "Ver Incidencia"
+msgstr ""
 
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.portal_project_issue
 msgid "Your Issues"
-msgstr "Sus Incidencia"
+msgstr ""

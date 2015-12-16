@@ -3,15 +3,14 @@
 # * lunch
 # 
 # Translators:
-# Jasper Torlitz <jtorlitz@me.com>, 2015
 # Thomas Lengyel <lexustec_fn@yahoo.de>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:12+0000\n"
-"PO-Revision-Date: 2015-11-07 22:20+0000\n"
-"Last-Translator: Jasper Torlitz <jtorlitz@me.com>\n"
+"PO-Revision-Date: 2015-10-20 04:47+0000\n"
+"Last-Translator: Thomas Lengyel <lexustec_fn@yahoo.de>\n"
 "Language-Team: German (http://www.transifex.com/odoo/odoo-9/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -372,12 +371,12 @@ msgstr ""
 #: model:ir.actions.act_window,name:lunch.action_lunch_order_line_lucky
 #: model:ir.ui.view,arch_db:lunch.view_lunch_order_line_lucky
 msgid "I'm feeling lucky today !"
-msgstr "Heute bin ich glücklich!"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_line_lucky_is_max_budget
 msgid "I'm not feeling rich"
-msgstr "Ich fühle mich nicht reich"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_id
@@ -393,7 +392,7 @@ msgstr "ID"
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_cashmove_state
 msgid "Is an order or a payment"
-msgstr "Es gibt eine Bestellung oder eine Einzahlung"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert___last_update
@@ -623,7 +622,7 @@ msgstr "Produktkategorie:"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_product_view_search
 msgid "Product Search"
-msgstr "Produktsuche"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_product_action

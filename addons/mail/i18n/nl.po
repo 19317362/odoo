@@ -4,15 +4,23 @@
 # 
 # Translators:
 # Eric Geens <ericgeens@yahoo.com>, 2015
+<<<<<<< HEAD
 # Erwin van der Ploeg <erwin@bas-solutions.nl>, 2015
 # Volluta <volluta@tutanota.com>, 2015
+=======
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2015-12-10 13:38+0000\n"
 "PO-Revision-Date: 2015-12-11 09:13+0000\n"
+=======
+"POT-Creation-Date: 2015-10-09 09:18+0000\n"
+"PO-Revision-Date: 2015-10-20 09:38+0000\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 "Last-Translator: Yenthe Van Ginneken <yenthespam@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/odoo/odoo-9/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -82,45 +90,55 @@ msgid ""
 "        </tr>\n"
 "    </tbody></table>\n"
 "</div>\n"
-"<div style=\"padding:0px; width:600px; margin:0 auto; background: #FFFFFF repeat top /100%; color:#777777\">\n"
-"    <table cellspacing=\"0\" cellpadding=\"0\" style=\"vertical-align:top; padding:0px; border-collapse:collapse; background:inherit; color:inherit\">\n"
-"        <tbody><tr>\n"
-"            <td valign=\"top\" style=\"width:600px; padding:5px 10px 5px 5px;\">\n"
-"                <div>\n"
-"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0;margin:15px auto;padding:0\">\n"
-"                </div>\n"
-"            </td>\n"
-"        </tr></tbody>\n"
+"<div style=\"padding:0px;width:600px;margin:auto;color:#777777;background-color:#FFFFFF\" class=\"\">\n"
+"    <table cellspacing=\"0\" cellpadding=\"0\" style=\"vertical-align:top;padding:0px;font-family:arial;font-size:12px;border-collapse:collapse;background:inherit;color:inherit\">\n"
+"        <tbody>\n"
+"            <tr>\n"
+"                <td valign=\"top\" style=\"width:600px\">\n"
+"                    <div>\n"
+"                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0;margin:15px auto;padding:0\">\n"
+"                    </div>\n"
+"                </td>\n"
+"            </tr>\n"
+"        </tbody>\n"
 "    </table>\n"
 "</div>\n"
-"<div style=\"padding:0px; width:600px; margin:0 auto; background: #FFFFFF repeat top /100%;color:#777777\">\n"
-"    <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"margin: 0 auto; width:600px; border-collapse:collapse; background:inherit; color:inherit\">\n"
+"<div class=\"snippet_row bg-color\" style=\"padding:0;width:600px;max-width:600px;margin:0 auto;background: #fff repeat top /100%;color:#777777\">\n"
+"    <table style=\"width:100%;text-align:justify;margin:0 auto;background:inherit;color:inherit;border-collapse:collapse;color:inherit\">\n"
 "        <tbody><tr>\n"
-"            <td style=\"padding:5px 10px 5px 5px;font-size: 14px;\">\n"
+"            <td style=\"padding:10px 30px; font-size:14px\">\n"
 "                ${object.body | safe}\n"
 "                % if ctx.get('tracking'):\n"
-"                    <ul>\n"
 "                    % for tracking in ctx['tracking']\n"
-"                        <li>${tracking[0]} : ${tracking[1]} -> ${tracking[2]}</li>\n"
+"                        ${tracking[0]} : ${tracking[1]} -> ${tracking[2]}\n"
 "                    % endfor\n"
-"                    </ul>\n"
 "                % endif\n"
 "            </td>\n"
-"        </tr></tbody>\n"
-"    </table>\n"
+"        </tr>\n"
+"    </tbody></table>\n"
 "</div>\n"
 "% if ctx.get('signature'):\n"
-"<div style=\"padding:0px; width:600px;margin:0 auto; background: #FFFFFF repeat top /100%;color:#777777\">\n"
-"    <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"margin: 0 auto; width:600px; border-collapse:collapse; background:inherit; color:inherit\">\n"
-"        <tbody><tr>\n"
-"            <td style=\"padding:5px 10px 5px 5px;font-size: 14px; text-align: left;\">\n"
-"                ${ctx['signature'] | safe}\n"
-"            </td>\n"
-"        </tr></tbody>\n"
-"    </table>\n"
+"<div class=\"snippet_row bg-color\" style=\"padding:0px;width:600px;margin:auto;background: #fff repeat top /100%;color:#777777\">\n"
+"    <center>\n"
+"        <table width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"margin: 0 auto; width:600px; border-collapse:collapse;background:inherit;color:inherit\">\n"
+"            <tbody><tr>\n"
+"                <td style=\"font-size:12px; padding: 5px 30px; text-align: left;\">\n"
+"                    &nbsp;\n"
+"                    ${ctx['signature'] | safe}\n"
+"                    &nbsp;\n"
+"                </td>\n"
+"                </tr>\n"
+"            </tbody>\n"
+"        </table>\n"
+"    </center>\n"
 "</div>\n"
+<<<<<<< HEAD
 "% endif"
 msgstr ""
+=======
+"% endif\n"
+msgstr "\n<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n    <div itemprop=\"potentialAction\" itemscope itemtype=\"http://schema.org/ViewAction\">\n        <link itemprop=\"target\" href=\"${ctx['button_access']['url']}\"/>\n        <link itemprop=\"url\" href=\"${ctx['button_access']['url']}\"/>\n        <meta itemprop=\"name\" content=\"View ${ctx['model_name']}\"/>\n    </div>\n</div>\n<div class=\"snippet_row bg-color\" style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\" data-snippet-theme=\"basic_theme\">\n    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px;border-collapse:collapse;background:inherit;color:inherit\">\n        <tbody><tr>\n            <td valign=\"center\" width=\"270\" style=\"padding:10px 10px 10px 5px;font-size: 30px\">\n                % if ctx.get('button_access'):\n                <a href=\"${ctx['button_access']['url']}\" style=\"-webkit-user-select: none; padding: 5px 10px; font-size: 12px; line-height: 18px; color: #FFFFFF; border-color:#a24689; text-decoration: none; display: inline-block; margin-bottom: 0px; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; background-color: #a24689; border: 1px solid #a24689; border-radius:3px\" class=\"o_default_snippet_text\">${ctx['button_access']['title']}</a>\n                % endif\n\n                % if ctx.get('button_follow'):\n                <a href=\"${ctx['button_follow']['url']}\" style=\"-webkit-user-select: none; padding: 5px 10px; font-size: 12px; line-height: 18px; color: #FFFFFF; border-color:#a24689; text-decoration: none; display: inline-block; margin-bottom: 0px; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; background-color: #a24689; border: 1px solid #a24689; border-radius:3px\" class=\"o_default_snippet_text\">${ctx['button_follow']['title']}</a>\n                \n                % elif ctx.get('button_unfollow'):\n                <a href=\"${ctx['button_unfollow']['url']}\" style=\"-webkit-user-select: none; padding: 5px 10px; font-size: 12px; line-height: 18px; color: #FFFFFF; border-color:#a24689; text-decoration: none; display: inline-block; margin-bottom: 0px; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; background-color: #a24689; border: 1px solid #a24689; border-radius:3px\" class=\"o_default_snippet_text\">${ctx['button_unfollow']['title']}</a>\n                % endif\n\n                % if not ctx.get('button_access') and not ctx.get('button_follow') and not ctx.get('button_unfollow') and ctx.get('model_name'):\n                <p style=\"padding: 5px 10px; font-size: 12px;\"\">\n                About <strong>${ctx['model_name']}\n                % if ctx.get('record_name'):\n                : ${ctx['record_name']}\n                % endif\n                </strong>\n                </p>\n                % endif\n            </td>\n            <td valign=\"center\" align=\"right\" width=\"270\" style=\"padding:10px 15px 10px 10px; font-size: 12px;\">\n                <p>\n                % if ctx.get('actions'):\n                % for action in ctx['actions']:\n                <a href=\"${action['url']}\" style=\"text-decoration:none; color: #a24689;\"><strong>${action['title']}</strong></a>\n                %if len(ctx['actions']) > 1 and loop.index < len(ctx['actions']):\n                    |\n                % endif\n                % endfor\n                % else:\n                <strong>Verzonden door</strong>\n                % if ctx.get('website_url'):\n                <a href=\"${ctx['website_url']}\" style=\"text-decoration:none; color: #a24689;\">\n                % endif\n                <strong>${ctx.get('company_name')}</strong>\n                % if ctx.get('website_url'):\n                </a>\n                % endif\n                <strong>met</strong>\n                <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #a24689;\"><strong>Odoo</strong></a>\n                % endif\n            </td>\n        </tr>\n    </tbody></table>\n</div>\n<div style=\"padding:0px;width:600px;margin:auto;color:#777777;background-color:#FFFFFF\" class=\"\">\n    <table cellspacing=\"0\" cellpadding=\"0\" style=\"vertical-align:top;padding:0px;font-family:arial;font-size:12px;border-collapse:collapse;background:inherit;color:inherit\">\n        <tbody>\n            <tr>\n                <td valign=\"top\" style=\"width:600px\">\n                    <div>\n                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0;margin:15px auto;padding:0\">\n                    </div>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n<div class=\"snippet_row bg-color\" style=\"padding:0;width:600px;max-width:600px;margin:0 auto;background: #fff repeat top /100%;color:#777777\">\n    <table style=\"width:100%;text-align:justify;margin:0 auto;background:inherit;color:inherit;border-collapse:collapse;color:inherit\">\n        <tbody><tr>\n            <td style=\"padding:10px 30px; font-size:14px\">\n                ${object.body | safe}\n                % if ctx.get('tracking'):\n                    % for tracking in ctx['tracking']\n                        ${tracking[0]} : ${tracking[1]} -> ${tracking[2]}\n                    % endfor\n                % endif\n            </td>\n        </tr>\n    </tbody></table>\n</div>\n% if ctx.get('signature'):\n<div class=\"snippet_row bg-color\" style=\"padding:0px;width:600px;margin:auto;background: #fff repeat top /100%;color:#777777\">\n    <center>\n        <table width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"margin: 0 auto; width:600px; border-collapse:collapse;background:inherit;color:inherit\">\n            <tbody><tr>\n                <td style=\"font-size:12px; padding: 5px 30px; text-align: left;\">\n                    &nbsp;\n                    ${ctx['signature'] | safe}\n                    &nbsp;\n                </td>\n                </tr>\n            </tbody>\n        </table>\n    </center>\n</div>\n% endif\n"
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 
 #. module: mail
 #. openerp-web
@@ -165,6 +183,7 @@ msgstr "%s heeft zich aangesloten bij het %s netwerk."
 
 #. module: mail
 #. openerp-web
+<<<<<<< HEAD
 #: code:addons/mail/static/src/xml/thread.xml:96
 #, python-format
 msgid "(from"
@@ -172,6 +191,8 @@ msgstr "(van"
 
 #. module: mail
 #. openerp-web
+=======
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 #: code:addons/mail/static/src/xml/chatter.xml:48
 #, python-format
 msgid "(no email address)"
@@ -186,34 +207,10 @@ msgstr "* Smileys zijn enkel gebruikt voor HTML code om een afbeelding te tonen 
 
 #. module: mail
 #. openerp-web
-#: code:addons/mail/static/src/xml/thread.xml:147
+#: code:addons/mail/static/src/xml/thread.xml:122
 #, python-format
-msgid "-------- Show older messages --------"
-msgstr "-------- Toon oude berichten --------"
-
-#. module: mail
-#: code:addons/mail/models/mail_channel.py:513
-#, python-format
-msgid ""
-"<div class=\"o_mail_notification\">created <a href=\"#\" "
-"class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
-msgstr "<div class=\"o_mail_notification\">gemaakt <a href=\"#\" class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
-
-#. module: mail
-#: code:addons/mail/models/mail_channel.py:489
-#, python-format
-msgid ""
-"<div class=\"o_mail_notification\">joined <a href=\"#\" "
-"class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
-msgstr "<div class=\"o_mail_notification\">deelgenomen <a href=\"#\" class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
-
-#. module: mail
-#: code:addons/mail/models/mail_channel.py:151
-#, python-format
-msgid ""
-"<div class=\"o_mail_notification\">left <a href=\"#\" "
-"class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
-msgstr "<div class=\"o_mail_notification\">verlaten <a href=\"#\" class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
+msgid "-------- Show more messages --------"
+msgstr "-------- Toon meer berichten --------"
 
 #. module: mail
 #: code:addons/mail/wizard/invite.py:22
@@ -302,6 +299,13 @@ msgstr "Een shortcode is een toetsenbordafkorting, U typt bijvoorbeeld #gm en he
 #: model:ir.model,name:mail.model_res_groups
 msgid "Access Groups"
 msgstr "Toegangsgroepen"
+
+#. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/js/client_action.js:154
+#, python-format
+msgid "Action"
+msgstr "Actie"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_message_needaction
@@ -658,7 +662,6 @@ msgstr "Kanaalberichten ids"
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:23
-#: code:addons/mail/static/src/xml/client_action.xml:89
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_channel_ids
 #: model:ir.model.fields,field_description:mail.field_mail_mail_channel_ids
 #: model:ir.model.fields,field_description:mail.field_mail_message_channel_ids
@@ -1460,6 +1463,17 @@ msgid "Important messages"
 msgstr "Belangrijke berichten"
 
 #. module: mail
+<<<<<<< HEAD
+=======
+#: model:ir.actions.client,help:mail.mail_channel_action_client_chat
+msgid ""
+"In the \"Channels\" section, you will find the public and restricted channel.<br/>\n"
+"                    The \"Direct Message\" section allows you to talk directly to one person.<br/>\n"
+"                    The \"Private Group\" section contains your private conversations. You can join a private channel either by creating a channel yourself, or by being invited to another one.<br/>"
+msgstr "In de \"Kanalen\" sectie vind u de publieke en beperkte kanalen.<br/>\nDe *Directe berichten\" sectie staat u toe om direct tegen eender wie te spreken.<br/>\nDe \"Privégroep\" sectie bevat privé conversaties. U kan lid worden van een privékanaal door het kanaal zelf aan te maken of door uitgenodigd te worden door iemand anders.<br/>"
+
+#. module: mail
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 #: code:addons/mail/models/mail_alias.py:141
 #, python-format
 msgid "Inactive Alias"
@@ -1939,8 +1953,11 @@ msgstr "Naam te gebruiken voor het gegenereerde rapport  (kan tijdelijke aanduid
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_needaction
+#: model:ir.model.fields,field_description:mail.field_mail_compose_message_needaction_partner_ids
 #: model:ir.model.fields,field_description:mail.field_mail_mail_needaction
+#: model:ir.model.fields,field_description:mail.field_mail_mail_needaction_partner_ids
 #: model:ir.model.fields,field_description:mail.field_mail_message_needaction
+#: model:ir.model.fields,field_description:mail.field_mail_message_needaction_partner_ids
 #: model:ir.model.fields,help:mail.field_mail_compose_message_needaction
 #: model:ir.model.fields,help:mail.field_mail_mail_needaction
 #: model:ir.model.fields,help:mail.field_mail_message_needaction
@@ -2305,13 +2322,6 @@ msgstr "Relatie profiel"
 #: model:ir.ui.view,arch_db:mail.res_partner_opt_out_search
 msgid "Partners that did not ask not to be included in mass mailing campaigns"
 msgstr "Relaties welke niet hebben aangegeven niet te willen worden opgenomen in de bulk-mail campagne."
-
-#. module: mail
-#: model:ir.model.fields,field_description:mail.field_mail_compose_message_needaction_partner_ids
-#: model:ir.model.fields,field_description:mail.field_mail_mail_needaction_partner_ids
-#: model:ir.model.fields,field_description:mail.field_mail_message_needaction_partner_ids
-msgid "Partners with Need Action"
-msgstr "Relaties met Nodige Actie"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_auto_delete
@@ -2897,6 +2907,14 @@ msgid ""
 msgstr "De waardes hieronder weergegeven zijn informatief. Bij het versturen van een e-mail, worden deze waardes\n                                overgenomen van het e-mailsjabloon."
 
 #. module: mail
+<<<<<<< HEAD
+=======
+#: model:ir.actions.client,help:mail.mail_channel_action_client_chat
+msgid "There are no messages to display.<br/>"
+msgstr "Er zijn geen berichten om te tonen.<br/>"
+
+#. module: mail
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 #: model:ir.model.fields,help:mail.field_mail_channel_image
 msgid ""
 "This field holds the image used as photo for the group, limited to "
@@ -3149,7 +3167,16 @@ msgid "Who can follow the group's activities?"
 msgstr "Wie kan de groepsactiviteiten volgen?"
 
 #. module: mail
+#: model:mail.channel,name:mail.channel_all_employees
+msgid "Whole Company"
+msgstr "Gehele bedrijf"
+
+#. module: mail
 #. openerp-web
+<<<<<<< HEAD
+=======
+#: code:addons/mail/static/src/xml/chatter.xml:57
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 #: code:addons/mail/static/src/xml/composer.xml:7
 #, python-format
 msgid "Write something..."
@@ -3218,12 +3245,26 @@ msgstr "U kunt bestanden toevoegen aan dit sjabloon. Deze worden vervolgens toeg
 
 #. module: mail
 #. openerp-web
+<<<<<<< HEAD
 #: code:addons/mail/static/src/js/client_action.js:401
+=======
+#: code:addons/mail/static/src/js/client_action.js:469
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 #, python-format
 msgid "You unsubscribed from <b>%s</b>."
 msgstr "U heeft zich uitgeschreven van <b>%s</b>."
 
 #. module: mail
+<<<<<<< HEAD
+=======
+#: model:ir.actions.client,help:mail.mail_channel_action_client_chat
+msgid ""
+"Your \"Inbox\" contains all the messages in which you've been mentioned, and the messages you receive as a follower of a document.<br/>\n"
+"                    The \"Starred\" section contains all your favorite messages."
+msgstr "Uw \"inbox\" bevat alle berichten waarin u bent vermeld en alle berichten die u heeft ontvangen als een volger van een document.<br/>\nDe \"Met ster\" sectie bevat al uw favorieten berichten."
+
+#. module: mail
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 #: model:ir.ui.view,arch_db:mail.view_server_action_form_template
 msgid ""
 "Your template does not defined the email address of the sender. Please "
@@ -3253,28 +3294,31 @@ msgstr "door"
 
 #. module: mail
 #. openerp-web
+<<<<<<< HEAD
 #: code:addons/mail/static/src/xml/client_action.xml:33
+=======
+#: code:addons/mail/static/src/xml/client_action.xml:29
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 #, python-format
 msgid "dm"
 msgstr "dm"
 
 #. module: mail
+<<<<<<< HEAD
 #: code:addons/mail/models/mail_thread.py:313
+=======
+#: code:addons/mail/models/mail_thread.py:281
+>>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
 #, python-format
 msgid "document"
 msgstr "document"
 
 #. module: mail
 #. openerp-web
-#: code:addons/mail/static/src/js/chatter.js:220
+#: code:addons/mail/static/src/js/chatter.js:232
 #, python-format
 msgid "followers"
 msgstr "volgers"
-
-#. module: mail
-#: model:mail.channel,name:mail.channel_all_employees
-msgid "general"
-msgstr "algemeen"
 
 #. module: mail
 #: model:ir.model,name:mail.model_ir_actions_server
