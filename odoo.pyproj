@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{82877622-7b0e-4c75-91cb-fda854a89224}</ProjectGuid>
+    <ProjectGuid>{45d198f4-dbdd-4f6c-8d0d-56e6852ba33d}</ProjectGuid>
     <ProjectHome />
     <StartupFile>odoo.py</StartupFile>
     <SearchPath />
@@ -11,10 +11,10 @@
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
-    <InterpreterVersion>2.7</InterpreterVersion>
-    <CommandLineArguments>-c openerp-server.conf</CommandLineArguments>
-    <EnableNativeCodeDebugging>True</EnableNativeCodeDebugging>
+    <InterpreterId />
+    <InterpreterVersion />
+    <CommandLineArguments>--config=openerp-server.conf</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -646,6 +646,11 @@
     <Content Include="addons\point_of_sale\static\src\js\screens.js" />
     <Content Include="addons\point_of_sale\static\src\js\tests.js" />
     <Content Include="addons\point_of_sale\static\src\js\widget_base.js" />
+    <Content Include="addons\point_of_sale\tools\posbox\configuration\odoo.conf" />
+    <Content Include="addons\point_of_sale\tools\posbox\overwrite_after_init\etc\dhcpcd.conf" />
+    <Content Include="addons\point_of_sale\tools\posbox\overwrite_after_init\etc\dhcp\dhcpd.conf" />
+    <Content Include="addons\point_of_sale\tools\posbox\overwrite_after_init\etc\hostapd\hostapd.conf" />
+    <Content Include="addons\point_of_sale\tools\posbox\overwrite_before_init\etc\logrotate.conf" />
     <Content Include="addons\portal\static\description\icon.png" />
     <Content Include="addons\pos_cache\static\src\js\pos_cache.js" />
     <Content Include="addons\pos_discount\static\src\js\discount.js" />
@@ -1393,8 +1398,10 @@
     <Content Include="addons\web\doc\_themes\flask\layout.html" />
     <Content Include="addons\web\doc\_themes\flask\relations.html" />
     <Content Include="addons\web\doc\_themes\flask\static\small_flask.css" />
+    <Content Include="addons\web\doc\_themes\flask\theme.conf" />
     <Content Include="addons\web\doc\_themes\flask_small\layout.html" />
     <Content Include="addons\web\doc\_themes\flask_small\static\forkme_right_darkblue_121621.png" />
+    <Content Include="addons\web\doc\_themes\flask_small\theme.conf" />
     <Content Include="addons\web\Gruntfile.js" />
     <Content Include="addons\web\static\lib\autosize\autosize.js" />
     <Content Include="addons\web\static\lib\backbone\backbone.js" />
@@ -2072,6 +2079,7 @@
     <Content Include="addons\web_tip\static\src\js\tip.js" />
     <Content Include="addons\web_view_editor\static\src\css\view_editor.css" />
     <Content Include="addons\web_view_editor\static\src\js\view_editor.js" />
+    <Content Include="debian\openerp-server.conf" />
     <Content Include="doc\howtos\theme_tutorial_assets\img\after-menu.png" />
     <Content Include="doc\howtos\theme_tutorial_assets\img\cms.jpg" />
     <Content Include="doc\howtos\theme_tutorial_assets\img\def_structure.jpg" />
@@ -2104,6 +2112,7 @@
     <Content Include="doc\howtos\web\viewarchitecture.png" />
     <Content Include="doc\howtos\web\viewarchitecture.svg" />
     <Content Include="doc\images\inheritance_methods.png" />
+    <Content Include="doc\memo\参考URL.txt" />
     <Content Include="doc\reference\forms\header.png" />
     <Content Include="doc\reference\forms\header2.png" />
     <Content Include="doc\reference\forms\header3.png" />
@@ -2154,6 +2163,7 @@
     <Content Include="doc\_extensions\odoo\static\jquery.min.js" />
     <Content Include="doc\_extensions\odoo\static\jquery.noconflict.js" />
     <Content Include="doc\_extensions\odoo\static\style.css" />
+    <Content Include="doc\_extensions\odoo\theme.conf" />
     <Content Include="doc\_static\banners\actions.jpg" />
     <Content Include="doc\_static\banners\actions.small.jpg" />
     <Content Include="doc\_static\banners\build_a_module.jpg" />
@@ -2206,6 +2216,7 @@
     <Content Include="doc\_static\banners\web_service_api.small.jpg" />
     <Content Include="doc\_static\odoo.css" />
     <Content Include="doc\_static\pull-request-version.png" />
+    <Content Include="openerp-server.conf" />
     <Content Include="openerp\addons\base\report\mako_footer.html" />
     <Content Include="openerp\addons\base\report\mako_header.html" />
     <Content Include="openerp\addons\base\report\mako_template.css" />
@@ -2501,6 +2512,8 @@
     <Content Include="openerp\addons\test_convert\test_file.txt" />
     <Content Include="openerp\addons\test_exceptions\static\description\icon.png" />
     <Content Include="openerp\tests\phantomtest.js" />
+    <Content Include="openerp\tools\test-config-values-00.conf" />
+    <Content Include="requirements_win.txt" />
     <Content Include="requirements.txt" />
     <Content Include="setup\win32\static\pixmaps\openerp-icon.ico" />
     <Content Include="setup\win32\static\pixmaps\openerp-intro.bmp" />
@@ -4912,6 +4925,15 @@
     <Folder Include="addons\point_of_sale\static\src\img" />
     <Folder Include="addons\point_of_sale\static\src\js" />
     <Folder Include="addons\point_of_sale\test" />
+    <Folder Include="addons\point_of_sale\tools\" />
+    <Folder Include="addons\point_of_sale\tools\posbox\" />
+    <Folder Include="addons\point_of_sale\tools\posbox\configuration" />
+    <Folder Include="addons\point_of_sale\tools\posbox\overwrite_after_init\" />
+    <Folder Include="addons\point_of_sale\tools\posbox\overwrite_after_init\etc" />
+    <Folder Include="addons\point_of_sale\tools\posbox\overwrite_after_init\etc\dhcp" />
+    <Folder Include="addons\point_of_sale\tools\posbox\overwrite_after_init\etc\hostapd" />
+    <Folder Include="addons\point_of_sale\tools\posbox\overwrite_before_init\" />
+    <Folder Include="addons\point_of_sale\tools\posbox\overwrite_before_init\etc" />
     <Folder Include="addons\point_of_sale\wizard" />
     <Folder Include="addons\portal" />
     <Folder Include="addons\portal\static\" />
@@ -5529,6 +5551,7 @@
     <Folder Include="addons\web_view_editor\static\src\" />
     <Folder Include="addons\web_view_editor\static\src\css" />
     <Folder Include="addons\web_view_editor\static\src\js" />
+    <Folder Include="debian" />
     <Folder Include="doc" />
     <Folder Include="doc\cla" />
     <Folder Include="doc\howtos\" />
@@ -5537,6 +5560,7 @@
     <Folder Include="doc\howtos\web" />
     <Folder Include="doc\howtos\website" />
     <Folder Include="doc\images" />
+    <Folder Include="doc\memo\" />
     <Folder Include="doc\reference" />
     <Folder Include="doc\reference\forms" />
     <Folder Include="doc\reference\images" />
@@ -5623,9 +5647,6 @@
     <Folder Include="setup\win32" />
     <Folder Include="setup\win32\static\" />
     <Folder Include="setup\win32\static\pixmaps" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />
   </ItemGroup>
   <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
