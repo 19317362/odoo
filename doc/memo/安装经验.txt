@@ -3,4 +3,5 @@
    再安装 psycopg for win
 3. 因为VS是 WIN32，所以要安装32位的python
 4. requirement 还是要执行的。
+5. 命令行用 --config=openerp-server.conf
 
