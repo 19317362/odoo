@@ -2113,6 +2113,7 @@
     <Content Include="doc\howtos\web\viewarchitecture.svg" />
     <Content Include="doc\images\inheritance_methods.png" />
     <Content Include="doc\memo\参考URL.txt" />
+    <Content Include="doc\memo\安装经验.txt" />
     <Content Include="doc\reference\forms\header.png" />
     <Content Include="doc\reference\forms\header2.png" />
     <Content Include="doc\reference\forms\header3.png" />
