@@ -12157,6 +12157,8 @@
     <Content Include="addons\website\views\website_backend_navbar.xml" />
     <Content Include="addons\website\views\website_templates.xml" />
     <Content Include="addons\website\views\website_views.xml" />
+    <Content Include="addons\website_baidu_map\README.rst" />
+    <Content Include="addons\website_baidu_map\website_baidu_map.xml" />
     <Content Include="addons\website_blog\data\website_blog_data.xml" />
     <Content Include="addons\website_blog\data\website_blog_demo.xml" />
     <Content Include="addons\website_blog\i18n\af.po" />
@@ -18103,6 +18105,8 @@
     <Compile Include="addons\website\tests\__init__.py" />
     <Compile Include="addons\website\__init__.py" />
     <Compile Include="addons\website\__openerp__.py" />
+    <Compile Include="addons\website_baidu_map\__init__.py" />
+    <Compile Include="addons\website_baidu_map\__openerp__.py" />
     <Compile Include="addons\website_blog\controllers\main.py" />
     <Compile Include="addons\website_blog\controllers\__init__.py" />
     <Compile Include="addons\website_blog\models\mail_message.py" />
@@ -20041,6 +20045,9 @@
     <Folder Include="addons\website\static\src\xml" />
     <Folder Include="addons\website\tests" />
     <Folder Include="addons\website\views" />
+    <Folder Include="addons\website_baidu_map\" />
+    <Folder Include="addons\website_baidu_map\static\" />
+    <Folder Include="addons\website_baidu_map\static\img\" />
     <Folder Include="addons\website_blog" />
     <Folder Include="addons\website_blog\controllers" />
     <Folder Include="addons\website_blog\data" />

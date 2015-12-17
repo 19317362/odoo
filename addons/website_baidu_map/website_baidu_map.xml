@@ -10,17 +10,20 @@
                     #allmap{width:100%;height:250px;}
                     p{margin-left:5px; font-size:14px;}
                 </style>
-                <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
+                <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=GxUnZ5PObYGAAGbFKbGDFl00"></script>
                 <div id="allmap"></div>
                 <script type="text/javascript">
-                    // 百度地图API功能
-                    var map = new BMap.Map("allmap");          
-                    map.centerAndZoom(new BMap.Point(121.480237, 31.236305), 11);
-                    map.enableScrollWheelZoom();
-                    var local = new BMap.LocalSearch(map, {
-                        renderOptions:{map: map}
-                    });
-                    local.search('<t t-esc="res_company.street"/>');
+				  // 百度地图API功能
+				  var map = new BMap.Map("allmap");
+				  var point = new BMap.Point(113.927245, 22.537724);
+				  map.centerAndZoom(point, 11);
+				  map.enableScrollWheelZoom();
+				  var local = new BMap.LocalSearch(map, {
+				  renderOptions:{map: map}
+				  });
+				  map.addControl(new BMap.NavigationControl());
+				  local.search('南景苑大厦');
+				  //local.search('<t t-esc="res_company.street"/>');
                 </script>
             </xpath>
         </template>
