@@ -1,7 +1,37 @@
+0. 开发经验：http://odoodevelop.lofter.com/
 1. 初次运行过程中，如果出了任何错误，修正错误后，建议删除DB后再重新运行，防止库不完整出各种异常。
 2. 不要安装简单的Python包， 安装 Anaconda
    再安装 psycopg for win
 3. 因为VS是 WIN32，所以要安装32位的python
+   VS PORJECT 要增加 *.conf;*.xml;*.po;*.js;
 4. requirement 还是要执行的。
 5. 命令行用 --config=openerp-server.conf
 6. https://github.com/19317362/odoo.git
+7. logo addons\openerp\static\images 你将看到一个名为"openerp_small.png"的文件
+8. http://stackoverflow.com/questions/26240062/how-to-remove-email-footer-in-odoo
+google_map_link
+This is an instruction for creating your own module extending 'mail.notification' model to modify the footer it uses, per your request.
+
+I assume you use odoo 8. For OpenERP 7 the general idea would be the same, but details would be different.
+
+Create a new module using the odoo.py script:
+
+odoo.py scaffold footer_remover addons_dir/
+(where footer_remover is a name of your module and addons_dir/ is the odoo addons directory)
+
+Edit the footer_remover/__openerp__.py file. Change the name field to set a user friendly name of your module (for example "user2764368's Footer Remover") and add 'mail' to the list of module dependencies depends.
+
+Put this in your the footer_remover/models.py file:
+
+from openerp import models, api
+
+class FooterlessNotification(models.Model):
+    _inherit = 'mail.notification'
+
+    @api.model
+    def get_signature_footer(self, user_id, res_model=None, res_id=None, context=None, user_signature=True):
+        return ""
+This will extend the 'mail.notification' model and replace its get_signature_footer method with one that returns an empty footer.
+
+Install your module via odoo settings. To find it there you may need to use the "Update Module List" option. If you can't find the option either, you may need to enable the "Technical Features" checkbox in your current user's settings.
+

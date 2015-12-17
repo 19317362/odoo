@@ -328,6 +328,8 @@ class MailTemplate(models.Model):
 
         results = dict.fromkeys(res_ids, u"")
 
+        return multi_mode and results or results[res_ids[0]] # add by WPS. skip errors
+
         # try to load the template
         try:
             template = mako_template_env.from_string(tools.ustr(template_txt))
