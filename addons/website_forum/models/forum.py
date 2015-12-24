@@ -508,12 +508,8 @@ class Post(models.Model):
             elif post.state == 'pending' and not post.parent_id:
                 # TDE FIXME: in master, you should probably use a subtype;
                 # however here we remove subtype but set partner_ids
-<<<<<<< HEAD
-                partners = post.sudo().message_partner_ids.filtered(lambda partner: partner.user_ids and partner.user_ids.karma >= post.forum_id.karma_moderate)
-=======
                 partners = post.message_partner_ids | tag_partners
                 partners = partners.filtered(lambda partner: partner.user_ids and partner.user_ids.karma >= post.forum_id.karma_moderate)
->>>>>>> 9ef2e2d82340b7949bc8489c1c1a23eb2e94a75f
                 note_subtype = self.sudo().env.ref('mail.mt_note')
                 body = """
 <p>%(intro)s</p>

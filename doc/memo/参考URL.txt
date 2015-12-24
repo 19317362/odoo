@@ -1,3 +1,17 @@
 http://www.mamicode.com/info-detail-1105453.html
 
 https://www.odoo.com/documentation/9.0/setup/install.html 
+
+
+ubuntu
+
+apt-get install python-dateutil python-feedparser python-gdata python-ldap python-lxml python-mako python-openid python-psycopg2 python-pychart python-pydot python-pyparsing python-reportlab python-tz python-vatnumber python-vobject python-webdav python-xlwt python-yaml python-zsi python-docutils wget python-unittest2 python-mock python-jinja2
+
+apt-get install python-psutil
+apt-get install python-simplejson 
+apt-get install python-pybabel
+apt-get install python-libxslt1 
+apt-get install python-werkzeug 
+
+
+adduser --system --quiet --shell=/bin/bash --home=/opt/$OE_USER --gecos 'ODOO' --group odoo

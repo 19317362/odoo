@@ -1,5 +1,7 @@
 0. 开发经验：http://odoodevelop.lofter.com/
+https://www.linode.com/docs/websites/cms/install-odoo-9-erp-on-ubuntu-14-04
   XML-RPC
+PTVS doc https://github.com/Microsoft/PTVS/wiki/PTVS-Installation
 http://tech-journals.com/jonow/2012/01/25/implementing-xml-rpc-services-with-asp-net-mvc
 https://github.com/philipproplesch/XmlRpcMvc
 http://xml-rpc.net/
